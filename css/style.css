@@ -1,0 +1,45 @@
+/* line 2, ../../../Coding/Project Files/SCS/ReflectionV2/NmHomepage/scss/base/_base.scss */
+* {
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+}
+
+/* line 7, ../../../Coding/Project Files/SCS/ReflectionV2/NmHomepage/scss/base/_base.scss */
+body {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* line 13, ../../../Coding/Project Files/SCS/ReflectionV2/NmHomepage/scss/base/_base.scss */
+img {
+  max-width: 100%;
+}
+
+/* line 2, ../../../Coding/Project Files/SCS/ReflectionV2/NmHomepage/scss/layout/_header.scss */
+.header-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 20px 15px;
+  justify-content: space-between;
+}
+
+/* line 10, ../../../Coding/Project Files/SCS/ReflectionV2/NmHomepage/scss/layout/_header.scss */
+.header-logo {
+  padding-right: 200px;
+  align-items: flex-start;
+}
+
+/* line 15, ../../../Coding/Project Files/SCS/ReflectionV2/NmHomepage/scss/layout/_header.scss */
+.search {
+  width: 99%;
+  margin: 0px 10px 5px 10px;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.1);
+  outline: 1px solid rgba(255, 255, 255, 0.2);
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  height: 47px;
+}
+
+/*# sourceMappingURL=style.css.map */

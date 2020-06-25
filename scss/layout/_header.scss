@@ -1,0 +1,23 @@
+
+.header-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 20px 15px;
+    justify-content: space-between;
+}
+
+.header-logo {
+    padding-right: 200px;
+    align-items: flex-start;
+}
+
+.search {
+    width: 99%;
+    margin: 0px 10px 5px 10px;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.1);
+    outline: 1px solid rgba(255,255,255,0.2);
+    border: 2px solid rgba(0,0,0,0.1);
+    height: 47px;
+}
