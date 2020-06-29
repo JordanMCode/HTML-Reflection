@@ -63,6 +63,10 @@ h2::after {
     margin-top: 0;
 }
 
+.info-container p {
+    margin-bottom: 25px;
+}
+
 .latest-bar {
     display: flex;
     align-items: center;
@@ -73,6 +77,15 @@ h2::after {
     padding-right: 15px;
     background: white;
 }
+
+.latest-bar ul::after {
+    content: "";
+    background: black;
+    height: 5px;
+    margin: 17px auto 0 auto;
+    display: block;
+}
+
 .news-header {
     list-style: none;
     font-size: 1.25rem;
@@ -82,7 +95,7 @@ h2::after {
 }
 
 .news-section {
-    padding: 50px 15px;
+    padding: 15px 15px 50px;
     width: 100%;
 }
 .news-block {
