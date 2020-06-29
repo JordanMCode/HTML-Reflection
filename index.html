@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="https://kit.fontawesome.com/145bf61ced.js" crossorigin="anonymous"></script>
         <link rel="icon" href="https://www.netmatters.co.uk/assets/images/favicon.ico">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
         <link rel="stylesheet" href="css/style.css">
         <title>Netmatters | Full Service Digital Agency | Norwich, Norfolk| Netmatters</title>  
     </head>
@@ -10,64 +12,71 @@
     <body>
         <header>
             <div class="header-container">
-                <div class="header-logo"><img src="img/logo.png"></div>
-                <div class="actions">
-                    <i class="fas fa-phone-alt"></i>
-                    <button type="button">Menu</button>
+                <div class="header-logo"><a><img src="img/logo.png"></a></div>
+                <div class="phone">
+                    <i class="fas fa-phone-alt fa-2x"></i>
                 </div>
-                    <div class=search-container>
-                    <input type="search" class="search">
-                    <i class="fas fa-search search-icon"></i>
+                <div class="actions">
+                    <div class="menu">
+                        <i class="fa fa-bars fa-2x"></i>MENU</div>
+                    </div>
+                </div>
+                <div class="search-bar">
+                    <input type="search" class="search" placeholder="Search...">
+                    <i class="fas fa-search search-icon fa-2x"></i>
                 </div>
             </div>
         </header>
 
-        <div class=hero>
-            <img src="img/phone.jpg">   
+        <div class="hero">
+            <h1>Web Design</h1>
+            <p>For Businesses looking for make a strong and effective first impression</p>
+            <a class="hero-btn">Find out more &nbsp;<i class="fas fa-arrow-right"></i></a>    
         </div>
         <div class="card-container">
             <div class="cards">
-                <a class=card>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                <a class="card">
+                    <span class="icon app-icon"><i class="apps fas fa-th fa-lg"></i></span>
+                    <span><h2>Bespoke Software</h2></span>
+                    <span><p>
+                        Tailored software solutions to improve business productivity and online profits. Our expert team will ensure a software solution.</p></span>
+                    <span class="card-btn">Read More</span>
                 </a>
-                <a class=card>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                <a class="card">
+                    <span class="icon it"><i class="fas fa-tv fa-lg"></i></span>
+                    <span><h2>IT Support</h2></span>
+                    <span><p>Remotely managed IT services that is catered to your businesses needs, adds value and reduces costs.</p></span>
+                    <span class="card-btn">Read More</span>
                 </a>
-                <a class=card>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                <a class="card">
+                    <span class="icon digital-m"><i class="fas fa-signal fa-lg"></i></span>
+                    <span><h2>Digital Marketing</h2></span>
+                    <span><p>Driving brand awareness and ROI through creative digital marketing campaigns. We review and monitor online performances.</p></span>
+                    <span class="card-btn">Read More</span>
                 </a>
-                <a class=card>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                <a class="card">
+                    <span class="icon tele-c"><i class="fas fa-phone-volume fa-2x"></i></span>
+                    <span><h2>Telecoms Services</h2></span>
+                    <span><p>Stay connected with bespoke telecoms solutions when you need it most.</p></span>
+                    <span class="card-btn">Read More</span>
                 </a>
-                <a class=card>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                <a class="card">
+                    <span class="icon web"><i class="fas fa-code fa-lg"></i></span>
+                    <span><h2>Web Design</h2></span>
+                    <span><p>User-centric design for businesses looking to make a lasting first impression.</p></span>
+                    <span class="card-btn">Read More</span>
                 </a>
-                <a class=card>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                <a class="card">
+                    <span class="icon cyber"><i class="fas fa-shield-alt fa-2x"></i></span>
+                    <span><h2>Cyber Security</h2></span>
+                    <span><p>Ensuring your online business stays secure 24/7, 365 days of the year.</p></span>
+                    <span class="card-btn">Read More</span>
                 </a>
-                <a class=card>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                <a class="card">
+                    <span class="icon dev-t"><i class="fas fa-graduation-cap fa-lg"></i></span>
+                    <span><h2>Developer Training</h2></span>
+                    <span><p>Have you considered a career in web development but you aren't sure where to start?</p></span>
+                    <span class="card-btn">Read More</span>
                 </a>
 
             </div>
@@ -79,8 +88,8 @@
             <p>We provide cost effective, reliable solutions to a range of services; from bespoke cloud-based management systems, workflow and IT solutions through to creative website development and integrated digital campaigning.</p>
             <a>Our Culture</a>
         </div>
-        <div class="latest-container">
-            <ul>
+        <div class="latest-bar">
+            <ul class="news-header">
                 <li><span>Latest</span></li>
             </ul>
         </div>
@@ -88,44 +97,46 @@
             <div class="news">
                 <div class="news-block">
                     <div class="img-container">
-                        <a><img></a>
+                        <a><img  class="news-img" src="img/birthday.jpg"></a>
                     </div>
                     <div class="news-text">
-                        <h3><a>Easter of Norwich Case Study</a></h3>
-                        <p>In a digitally adopted world, e-commerce websites are leading the way in revenue generation, reach...</p>
-                        <a></a> <!--Read more button-->
+                        <h3><a>Happy 25th Birthday Dieter!</a></h3>
+                        <p class="news-text-content">Dieter joined us in Novermber 2018 as a second line technician in our IT department. Since jonining...</p>
+                        <a class="news-btn news-btn-1">Read More</a> <!--Read more button-->
+                            <div class="user">
+                                <img src="img/netmatters-logo.png">
+                                <p><strong>Posted by Netammters Ltd</strong></p>
+                                <p>19th June 2020</p>
+                            </div>
                     </div>
-                    <div class="user">
-                        <img src="img/netmatters-logo.png">
-                        <p><strong>Posted by Netammters Ltd</strong></p>
-                        <p>19th June 2020</p>
+                   
+                    <div class="img-container">
+                        <a><img class="news-img" src="img/easter.jpg"></a>
+                    </div>
+                    <div class="news-text">
+                        <h3><a>Easters of Norwich Case Study</a></h3>
+                        <p class="news-text-content">In a digitally adopted world, e-commerce websites are leading the way in revenue generation, reach...</p>
+                        <a class="news-btn news-btn-2">Read More</a> <!--Read more button-->
+                            <div class="user">
+                                <img src="img/netmatters-logo.png">
+                                <p><strong>Posted by Netammters Ltd</strong></p>
+                                <p>19th June 2020</p>
+                            </div>
                     </div>
                     <div class="img-container">
-                        <a><img></a>
+                        <a><img class="news-img" src="img/key.jpg"></a>
                     </div>
                     <div class="news-text">
-                        <h3><a>Easter of Norwich Case Study</a></h3>
-                        <p>In a digitally adopted world, e-commerce websites are leading the way in revenue generation, reach...</p>
-                        <a></a> <!--Read more button-->
+                        <h3><a>The 6 Key Steps to Intergrating Your Business</a></h3>
+                        <p class="news-text-content">Systems intergration is the idea that all of the software used within your business should work tog...</p>
+                        <a class="news-btn news-btn-3">Read More</a> <!--Read more button-->
+                            <div class="user">
+                                <img src="img/netmatters-logo.png">
+                                <p><strong>Posted by Netammters Ltd</strong></p>
+                                <p>19th June 2020</p>
+                            </div>
                     </div>
-                    <div class="user">
-                        <img src="img/netmatters-logo.png">
-                        <p><strong>Posted by Netammters Ltd</strong></p>
-                        <p>19th June 2020</p>
-                    </div>
-                    <div class="img-container">
-                        <a><img></a>
-                    </div>
-                    <div class="news-text">
-                        <h3><a>Easter of Norwich Case Study</a></h3>
-                        <p>In a digitally adopted world, e-commerce websites are leading the way in revenue generation, reach...</p>
-                        <a></a> <!--Read more button-->
-                    </div>
-                    <div class="user">
-                        <img src="img/netmatters-logo.png">
-                        <p><strong>Posted by Netammters Ltd</strong></p>
-                        <p>19th June 2020</p>
-                    </div>
+
                 </div>
             </div>
         </div>
@@ -136,11 +147,46 @@
             <div class="brand-logo"><img></div>
         </div>
         <footer>
-            <div class="footer-block">
-                <div class="footer-contact"></div>
-                <div class="footer-web"></div>
-                <div class="footer-about"></div>
-                <div class="footer-social"></div>
+            <div class="footer-container">
+                <div class="footer-contact footer-block">
+                    <h4>Contact Us</h4>
+                    <ul>
+                        <li>11 Penfold Drive</li>
+                        <li>Wymondham</li>
+                        <li>Norfolk</li>
+                        <li>NR18 0WZ</li>
+                        <li>&nbsp;</li>
+                        <li>Tel:<a> 01603 70 40 20</a></li>
+                        <li>Email: <a href="mailto:support@netmatters.com">support@netmatters.com</a></li>
+                    </ul>
+                </div>
+                <div class="footer-about footer-block">
+                    <h4>About Netmatters</h4>
+                    <ul>
+                        <li>News</li>
+                        <li>Our Careers</li>
+                        <li>Our Team</li>
+                        <li>Our Office Tour</li>
+                        <li>Privacy Policy</li>
+                        <li>Cookie Policy</li>
+                        <li>Terms and Conditions</li>
+                        <li>UK Domains</li>
+                    </ul>
+                </div>
+                <div class="footer-web footer-block">
+                    <h4>Web</h4>
+                    <ul>
+                        <li>Sitemap</li>
+                        <li>&copy;Copyright netmatters Ltd. 2020</li>
+                        <li>All rights reserved</li>
+                    </ul>
+                </div>
+                <div class="footer-social footer-block">
+                    <h4>Social Media</h4>
+                    <a class="social block"></a>
+                    <a class="social block"></a>
+                    <a class="social block"></a>
+                </div>
             </div>
         </footer>
         <div class="accred">

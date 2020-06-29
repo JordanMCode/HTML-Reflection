@@ -1,0 +1,55 @@
+
+
+.phone {
+    color: #333645;
+    height: 71px;
+    width: 70px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.icon {
+    height: 60px;
+    width: 60px;
+    margin: 0 auto 17px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.apps,
+.it,
+.digital-m,
+.tele-c,
+.web,
+.cyber,
+.dev-t {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-icon {
+    background: $grey-blue;
+}
+.it {
+    background: #4183d7;
+}
+.digital-m {
+    background: #2ecc71;
+}
+.tele-c {
+    background: #d64541;
+}
+.web {
+    background: #926fb1;
+}
+.cyber {
+    background: #f62459;
+}
+.dev-t {
+    background: #926fb1;
+}
+

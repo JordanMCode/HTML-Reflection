@@ -2,22 +2,55 @@
 .header-container {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
-    padding: 20px 15px;
     justify-content: space-between;
+    width: 100%;
+    padding: 10px 0;
 }
 
 .header-logo {
-    padding-right: 200px;
-    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    width: 55%;
+    height: 70px;
+    margin: 0 auto 0 0;
+    padding: 20px 0;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.actions {
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.search-bar {
+    position: relative;
+    width: 100%;
+    height: 47px;
+    margin-top: 20px;
+    display: flex;
+    margin: 10px auto;
+    font-size: 1rem;
+
 }
 
 .search {
-    width: 99%;
-    margin: 0px 10px 5px 10px;
-    overflow: hidden;
-    background-color: rgba(0,0,0,0.1);
-    outline: 1px solid rgba(255,255,255,0.2);
-    border: 2px solid rgba(0,0,0,0.1);
+    width: 100%;
     height: 47px;
+    border: 2px solid rgba(0,0,0, 0.1);
+    width: 100%;
+    padding: 5px 40px 5px 15px;
+    outline: 0;
+    background-color: #f5f5f5;
 }
+.fa-search {
+    width: 48px;
+    height: 48px;
+    margin-top: 10px;
+    position: absolute;
+    top: -3px;
+    right: -7px;
+}
+

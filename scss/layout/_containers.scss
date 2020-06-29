@@ -1,0 +1,152 @@
+
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(to right, black, transparent),
+    url("/NmHomepage/img/web-design.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 681px;
+    color: white;
+    
+}
+
+.hero p {
+    font-size: 1.25rem;
+    margin: 0 15% 35px 15%;
+}
+
+.card-container {
+    width: 100%;
+    padding: 50px 15px;
+}
+
+.card {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-shadow: 0 3px 35px rgba(0,0,0, .1);
+    text-align: center;
+    margin-top: 30px;
+    padding: 30px;
+    min-height: calc(100%/7);
+}
+
+h2::after {
+    content: "";
+    background: black;
+    width: 28px;
+    height: 3px;
+    margin: 17px auto 0 auto;
+    display: block;
+}
+
+.info-container {
+    background: #333645;
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 15px 50px 15px;
+}
+.info-container h1 {
+    margin-top: 0;
+}
+
+.latest-bar {
+    display: flex;
+    align-items: center;
+    height: 104px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: white;
+}
+.news-header {
+    list-style: none;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 40px 0;
+}
+
+.news-section {
+    padding: 50px 15px;
+    width: 100%;
+}
+.news-block {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 0 0 3px 3px;
+    box-shadow: 0 3px 35px rgba(0,0,0, .1);
+    text-align: left;
+}
+
+.img-container {
+    width: 100%;
+    height:100%;
+
+}
+
+
+.news-img {
+    min-width: 100%;
+    border: 1px solid #ccc;
+}
+
+.news-text {
+    border: 1px solid #ccc;
+    padding: 30px;
+}
+
+.news-text-content {
+    margin-bottom: 50px;
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 1px solid #ccc;
+}
+
+.user img {
+    max-width: 47px;
+    max-height: 47px; 
+}
+
+
+.sponsors {
+    display: none;
+}
+
+.footer-container {
+    padding: 47px 0 43px;
+}
+
+
+.footer-block {
+    padding: 0 15px;
+    margin-bottom: 30px;
+}
+
+.accred {
+    display: none;
+}

@@ -1,0 +1,61 @@
+
+
+.menu {
+    background: #333645;
+    color: white;
+    width: 63px;
+    height: 63px;
+    padding: 5px 15px;
+    margin-left: 20px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: .75rem;
+}
+
+.hero-btn {
+    background: $purple;
+    border: 1px solid $purple;
+    border-radius: 3px;
+    min-width: 128px;
+    min-height: 47px;
+    padding: 15px 15px; 
+    text-transform: uppercase;
+    color: white;
+    line-height: 35px;
+    text-align: center;
+    font-size: 1.25rem;
+    margin: 0 25%;
+    font-weight: 400;
+}
+
+.card-btn {
+   background: #4183d7;
+   border: 1px solid;
+   border-radius: 3px;
+   width: 128px;
+   height: 47px;
+   padding: 5px; 
+   text-transform: uppercase;
+   color: white;
+   line-height: 35px;
+   text-align: center;
+   font-size: 1.063rem;
+}
+
+.news-btn {
+    background: #4183d7;
+    border: 1px solid #4183d7;
+    border-radius: 3px;
+    min-width: 128px;
+    min-height: 47px;
+    padding: 15px 5px; 
+    text-transform: uppercase;
+    color: white;
+    line-height: 35px;
+    text-align: center;
+    font-size: 1.063rem;
+}
+

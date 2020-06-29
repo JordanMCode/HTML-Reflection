@@ -1,4 +1,5 @@
 @import "base/base";
+@import "utility/variables";
 @import "components/buttons";
 @import "components/icons";
 @import "layout/articles";
@@ -7,6 +8,5 @@
 @import "layout/header";
 @import "layout/media-queries";
 @import "utility/mixins";
-@import "utility/variables";
 
 // @import "base/base", "components/buttons", "components/icons", "layout/articles", "layout/containers", "layout/footer", "layout/header", "layout/media-queries", "utility/mixins", "utility/variables";
