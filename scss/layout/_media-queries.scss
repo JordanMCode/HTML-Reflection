@@ -1,0 +1,38 @@
+
+
+@media screen and (min-width:768px) {
+
+    .header-container {
+        justify-content: center;
+        align-items: center;
+        width: 97%;
+        margin: 0 auto;
+        flex-wrap: nowrap;
+    }
+
+    .header-logo {
+        width: 364px;
+        height: 60px;
+    }
+
+    .phone {
+        display: none;
+    }
+
+    .search-bar {
+        order: 2;
+        height: 63px;
+        width: 237px;
+        margin: 0;
+    }
+
+    .search {
+        height: 63px;
+        margin: 0;
+    }
+    
+    .actions
+     {
+        order: 3;
+    }
+}

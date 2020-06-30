@@ -43,12 +43,25 @@
     min-height: calc(100%/7);
 }
 
+
+.card h2 {
+    font-size: 1.125rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: .8125rem;
+    line-height: 1.375rem;
+    margin-top: 0;
+}
+
 h2::after {
     content: "";
     background: black;
     width: 28px;
     height: 3px;
-    margin: 17px auto 0 auto;
+    margin: 10px auto 0 auto;
     display: block;
 }
 
@@ -93,7 +106,9 @@ h2::after {
     text-transform: uppercase;
     font-weight: 600;
     padding: 40px 0;
+    margin: 0;
 }
+
 
 .news-section {
     padding: 15px 15px 50px;
@@ -112,10 +127,33 @@ h2::after {
     text-align: left;
 }
 
+.case {
+    background: $purple;
+    border-color: $purple;
+}
+
+.news-color {
+    background: $light-blue;
+}
+
+.case-title {
+    color: $purple;
+}
+
+.news-title {
+    color: $light-blue;
+}
+
 .img-container {
     width: 100%;
     height:100%;
+    margin-bottom: -7px;
+}
 
+.img-container-a {
+    width: 100%;
+    height: 100%;
+    display: block;
 }
 
 
@@ -153,14 +191,229 @@ h2::after {
 
 .footer-container {
     padding: 47px 0 43px;
+    width: 100%;
 }
 
 
 .footer-block {
     padding: 0 15px;
     margin-bottom: 30px;
+    width: 100%;
 }
 
 .accred {
     display: none;
 }
+
+
+
+
+
+// =============================================================================//
+// Card Hover states //
+// =============================================================================//
+
+
+.software-card {
+    &:hover {
+        p {
+            color: white;
+        }
+        h2 {
+            color: white;
+        }
+        .apps {
+            color: $grey-blue;
+        }
+        .icon {
+            background: white;
+        }
+        h2::after {
+            background: white;
+        }
+        .app-btn {
+            color: $grey-blue;
+            background: white;
+            border-color: white;
+        }
+    }
+}
+
+.software-card:hover {
+    background: $grey-blue;
+}
+
+.it-card {
+    &:hover {
+        p {
+            color: white;
+        }
+        h2 {
+            color: white;
+        }
+        .it {
+            color: $light-blue;
+        }
+        .icon {
+            background: white;
+        }
+        h2::after {
+            background: white;
+        }
+        .it-btn {
+            color: $light-blue;
+            background: white;
+            border-color: white;
+        }
+    }
+}
+
+.it-card:hover {
+    background: $light-blue;
+}
+
+.digital-card {
+    &:hover {
+        p {
+            color: white;
+        }
+        h2 {
+            color: white;
+        }
+        .digital-m {
+            color: $green;
+        }
+        .icon {
+            background: white;
+        }
+        h2::after {
+            background: white;
+        }
+        .digital-btn {
+            color: $green;
+            background: white;
+            border-color: white;
+        }
+    }
+}
+
+.digital-card:hover {
+    background: $green;
+}
+
+.tele-card {
+    &:hover {
+        p {
+            color: white;
+        }
+        h2 {
+            color: white;
+        }
+        .tele-c {
+            color: $red;
+        }
+        .icon {
+            background: white;
+        }
+        h2::after {
+            background: white;
+        }
+        .tele-btn {
+            color: $red;
+            background: white;
+            border-color: white;
+        }
+    }
+}
+
+.tele-card:hover {
+    background: $red;
+}
+
+.web-card {
+    &:hover {
+        p {
+            color: white;
+        }
+        h2 {
+            color: white;
+        }
+        .web {
+            color: $purple;
+        }
+        .icon {
+            background: white;
+        }
+        h2::after {
+            background: white;
+        }
+        .web-btn {
+            color: $purple;
+            background: white;
+            border-color: white;
+        }
+    }
+}
+
+.web-card:hover {
+    background: $purple;
+}
+
+.cyber-card {
+    &:hover {
+        p {
+            color: white;
+        }
+        h2 {
+            color: white;
+        }
+        .cyber {
+            color: $hot-pink;
+        }
+        .icon {
+            background: white;
+        }
+        h2::after {
+            background: white;
+        }
+        .cyber-btn {
+            color: $hot-pink;
+            background: white;
+            border-color: white;
+        }
+    }
+}
+
+.cyber-card:hover {
+    background: $hot-pink;
+}
+
+.dev-card {
+    &:hover {
+        p {
+            color: white;
+        }
+        h2 {
+            color: white;
+        }
+        .dev-t {
+            color: $purple;
+        }
+        .icon {
+            background: white;
+        }
+        h2::after {
+            background: white;
+        }
+        .dev-btn {
+            color: $purple;
+            background: white;
+            border-color: white;
+        }
+    }
+}
+
+.dev-card:hover {
+    background: $purple;
+}
+

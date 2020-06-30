@@ -66,11 +66,36 @@
     border-radius: 3px;
     min-width: 128px;
     min-height: 47px;
-    padding: 15px 5px; 
+    padding: 10px 15px; 
     text-transform: uppercase;
     color: white;
     line-height: 35px;
     text-align: center;
     font-size: 1.063rem;
+    font-weight: 400;
 }
 
+
+.app-btn {
+    background: $grey-blue;
+}
+
+.digital-btn {
+    background: $green;
+}
+
+.tele-btn {
+    background: $red;
+}
+
+.web-btn {
+    background: $purple;
+}
+
+.cyber-btn {
+    background: $hot-pink;
+}
+
+.dev-btn {
+    background: $purple;
+}
