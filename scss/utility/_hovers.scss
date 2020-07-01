@@ -1,0 +1,228 @@
+// =============================================================================//
+// Card Hover states //
+// =============================================================================//
+
+
+.software-card {
+    &:hover {
+        p {
+            color: white;
+        }
+        h2 {
+            color: white;
+        }
+        .apps {
+            color: $grey-blue;
+        }
+        .icon {
+            background: white;
+        }
+        h2::after {
+            background: white;
+        }
+        .app-btn {
+            color: $grey-blue;
+            background: white;
+            border-color: white;
+        }
+    }
+}
+
+.software-card:hover {
+    background: $grey-blue;
+}
+
+.it-card {
+    &:hover {
+        p {
+            color: white;
+        }
+        h2 {
+            color: white;
+        }
+        .it {
+            color: $light-blue;
+        }
+        .icon {
+            background: white;
+        }
+        h2::after {
+            background: white;
+        }
+        .it-btn {
+            color: $light-blue;
+            background: white;
+            border-color: white;
+        }
+    }
+}
+
+.it-card:hover {
+    background: $light-blue;
+}
+
+.digital-card {
+    &:hover {
+        p {
+            color: white;
+        }
+        h2 {
+            color: white;
+        }
+        .digital-m {
+            color: $green;
+        }
+        .icon {
+            background: white;
+        }
+        h2::after {
+            background: white;
+        }
+        .digital-btn {
+            color: $green;
+            background: white;
+            border-color: white;
+        }
+    }
+}
+
+.digital-card:hover {
+    background: $green;
+}
+
+.tele-card {
+    &:hover {
+        p {
+            color: white;
+        }
+        h2 {
+            color: white;
+        }
+        .tele-c {
+            color: $red;
+        }
+        .icon {
+            background: white;
+        }
+        h2::after {
+            background: white;
+        }
+        .tele-btn {
+            color: $red;
+            background: white;
+            border-color: white;
+        }
+    }
+}
+
+.tele-card:hover {
+    background: $red;
+}
+
+.web-card {
+    &:hover {
+        p {
+            color: white;
+        }
+        h2 {
+            color: white;
+        }
+        .web {
+            color: $purple;
+        }
+        .icon {
+            background: white;
+        }
+        h2::after {
+            background: white;
+        }
+        .web-btn {
+            color: $purple;
+            background: white;
+            border-color: white;
+        }
+    }
+}
+
+.web-card:hover {
+    background: $purple;
+}
+
+.cyber-card {
+    &:hover {
+        p {
+            color: white;
+        }
+        h2 {
+            color: white;
+        }
+        .cyber {
+            color: $hot-pink;
+        }
+        .icon {
+            background: white;
+        }
+        h2::after {
+            background: white;
+        }
+        .cyber-btn {
+            color: $hot-pink;
+            background: white;
+            border-color: white;
+        }
+    }
+}
+
+.cyber-card:hover {
+    background: $hot-pink;
+}
+
+.dev-card {
+    &:hover {
+        p {
+            color: white;
+        }
+        h2 {
+            color: white;
+        }
+        .dev-t {
+            color: $purple;
+        }
+        .icon {
+            background: white;
+        }
+        h2::after {
+            background: white;
+        }
+        .dev-btn {
+            color: $purple;
+            background: white;
+            border-color: white;
+        }
+    }
+}
+
+.dev-card:hover {
+    background: $purple;
+}
+
+
+// =============================================================================//
+//  Sponsor Hover States //
+// =============================================================================//
+
+.bus:hover .bus-color {
+    display: initial;
+}
+
+.crane:hover .crane-color {
+    display: initial;
+}
+
+.beat:hover .beat-color {
+    display: initial;
+}
+
+.northern:hover .northern-color {
+    display: initial;
+}

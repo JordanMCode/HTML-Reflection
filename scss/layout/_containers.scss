@@ -211,6 +211,21 @@ h2::after {
     height: 145.11px;
 }
 
+.bus,
+.crane,
+.beat,
+.northern {
+    position: relative;
+}
+
+.bus-color,
+.crane-color,
+.beat-color,
+.northern-color {
+    position: absolute;
+    z-index: 10;
+}
+
 .brand-container {
     display: flex;
     margin: 0 auto;
@@ -222,11 +237,17 @@ h2::after {
 .brand-logo {
     padding: 0 20px;
     align-items: center;
+    display: flex;
+    overflow: hidden;
 }
 
 .brand-logo-color {
     display: none;
     padding: 0 20px;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
 }
 
 .accred {
@@ -248,215 +269,4 @@ h2::after {
     padding: 0 20px;
 }
 
-
-
-
-
-// =============================================================================//
-// Card Hover states //
-// =============================================================================//
-
-
-.software-card {
-    &:hover {
-        p {
-            color: white;
-        }
-        h2 {
-            color: white;
-        }
-        .apps {
-            color: $grey-blue;
-        }
-        .icon {
-            background: white;
-        }
-        h2::after {
-            background: white;
-        }
-        .app-btn {
-            color: $grey-blue;
-            background: white;
-            border-color: white;
-        }
-    }
-}
-
-.software-card:hover {
-    background: $grey-blue;
-}
-
-.it-card {
-    &:hover {
-        p {
-            color: white;
-        }
-        h2 {
-            color: white;
-        }
-        .it {
-            color: $light-blue;
-        }
-        .icon {
-            background: white;
-        }
-        h2::after {
-            background: white;
-        }
-        .it-btn {
-            color: $light-blue;
-            background: white;
-            border-color: white;
-        }
-    }
-}
-
-.it-card:hover {
-    background: $light-blue;
-}
-
-.digital-card {
-    &:hover {
-        p {
-            color: white;
-        }
-        h2 {
-            color: white;
-        }
-        .digital-m {
-            color: $green;
-        }
-        .icon {
-            background: white;
-        }
-        h2::after {
-            background: white;
-        }
-        .digital-btn {
-            color: $green;
-            background: white;
-            border-color: white;
-        }
-    }
-}
-
-.digital-card:hover {
-    background: $green;
-}
-
-.tele-card {
-    &:hover {
-        p {
-            color: white;
-        }
-        h2 {
-            color: white;
-        }
-        .tele-c {
-            color: $red;
-        }
-        .icon {
-            background: white;
-        }
-        h2::after {
-            background: white;
-        }
-        .tele-btn {
-            color: $red;
-            background: white;
-            border-color: white;
-        }
-    }
-}
-
-.tele-card:hover {
-    background: $red;
-}
-
-.web-card {
-    &:hover {
-        p {
-            color: white;
-        }
-        h2 {
-            color: white;
-        }
-        .web {
-            color: $purple;
-        }
-        .icon {
-            background: white;
-        }
-        h2::after {
-            background: white;
-        }
-        .web-btn {
-            color: $purple;
-            background: white;
-            border-color: white;
-        }
-    }
-}
-
-.web-card:hover {
-    background: $purple;
-}
-
-.cyber-card {
-    &:hover {
-        p {
-            color: white;
-        }
-        h2 {
-            color: white;
-        }
-        .cyber {
-            color: $hot-pink;
-        }
-        .icon {
-            background: white;
-        }
-        h2::after {
-            background: white;
-        }
-        .cyber-btn {
-            color: $hot-pink;
-            background: white;
-            border-color: white;
-        }
-    }
-}
-
-.cyber-card:hover {
-    background: $hot-pink;
-}
-
-.dev-card {
-    &:hover {
-        p {
-            color: white;
-        }
-        h2 {
-            color: white;
-        }
-        .dev-t {
-            color: $purple;
-        }
-        .icon {
-            background: white;
-        }
-        h2::after {
-            background: white;
-        }
-        .dev-btn {
-            color: $purple;
-            background: white;
-            border-color: white;
-        }
-    }
-}
-
-.dev-card:hover {
-    background: $purple;
-}
 

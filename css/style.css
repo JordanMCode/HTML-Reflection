@@ -43,6 +43,285 @@ p {
   line-height: 1.875rem;
 }
 
+/* line 8, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+.software-card:hover p {
+  color: white;
+}
+
+/* line 11, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+.software-card:hover h2 {
+  color: white;
+}
+
+/* line 14, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+.software-card:hover .apps {
+  color: #67809f;
+}
+
+/* line 17, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+.software-card:hover .icon {
+  background: white;
+}
+
+/* line 20, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+.software-card:hover h2::after {
+  background: white;
+}
+
+/* line 23, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+.software-card:hover .app-btn {
+  color: #67809f;
+  background: white;
+  border-color: white;
+}
+
+/* line 31, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+.software-card:hover {
+  background: #67809f;
+}
+
+/* line 37, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+.it-card:hover p {
+  color: white;
+}
+
+/* line 40, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+.it-card:hover h2 {
+  color: white;
+}
+
+/* line 43, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+.it-card:hover .it {
+  color: #4183d7;
+}
+
+/* line 46, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+.it-card:hover .icon {
+  background: white;
+}
+
+/* line 49, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+.it-card:hover h2::after {
+  background: white;
+}
+
+/* line 52, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+.it-card:hover .it-btn {
+  color: #4183d7;
+  background: white;
+  border-color: white;
+}
+
+/* line 60, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+.it-card:hover {
+  background: #4183d7;
+}
+
+/* line 66, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+.digital-card:hover p {
+  color: white;
+}
+
+/* line 69, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+.digital-card:hover h2 {
+  color: white;
+}
+
+/* line 72, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+.digital-card:hover .digital-m {
+  color: #2ecc71;
+}
+
+/* line 75, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+.digital-card:hover .icon {
+  background: white;
+}
+
+/* line 78, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+.digital-card:hover h2::after {
+  background: white;
+}
+
+/* line 81, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+.digital-card:hover .digital-btn {
+  color: #2ecc71;
+  background: white;
+  border-color: white;
+}
+
+/* line 89, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+.digital-card:hover {
+  background: #2ecc71;
+}
+
+/* line 95, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+.tele-card:hover p {
+  color: white;
+}
+
+/* line 98, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+.tele-card:hover h2 {
+  color: white;
+}
+
+/* line 101, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+.tele-card:hover .tele-c {
+  color: #d64541;
+}
+
+/* line 104, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+.tele-card:hover .icon {
+  background: white;
+}
+
+/* line 107, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+.tele-card:hover h2::after {
+  background: white;
+}
+
+/* line 110, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+.tele-card:hover .tele-btn {
+  color: #d64541;
+  background: white;
+  border-color: white;
+}
+
+/* line 118, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+.tele-card:hover {
+  background: #d64541;
+}
+
+/* line 124, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+.web-card:hover p {
+  color: white;
+}
+
+/* line 127, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+.web-card:hover h2 {
+  color: white;
+}
+
+/* line 130, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+.web-card:hover .web {
+  color: #926fb1;
+}
+
+/* line 133, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+.web-card:hover .icon {
+  background: white;
+}
+
+/* line 136, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+.web-card:hover h2::after {
+  background: white;
+}
+
+/* line 139, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+.web-card:hover .web-btn {
+  color: #926fb1;
+  background: white;
+  border-color: white;
+}
+
+/* line 147, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+.web-card:hover {
+  background: #926fb1;
+}
+
+/* line 153, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+.cyber-card:hover p {
+  color: white;
+}
+
+/* line 156, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+.cyber-card:hover h2 {
+  color: white;
+}
+
+/* line 159, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+.cyber-card:hover .cyber {
+  color: #f62459;
+}
+
+/* line 162, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+.cyber-card:hover .icon {
+  background: white;
+}
+
+/* line 165, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+.cyber-card:hover h2::after {
+  background: white;
+}
+
+/* line 168, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+.cyber-card:hover .cyber-btn {
+  color: #f62459;
+  background: white;
+  border-color: white;
+}
+
+/* line 176, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+.cyber-card:hover {
+  background: #f62459;
+}
+
+/* line 182, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+.dev-card:hover p {
+  color: white;
+}
+
+/* line 185, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+.dev-card:hover h2 {
+  color: white;
+}
+
+/* line 188, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+.dev-card:hover .dev-t {
+  color: #926fb1;
+}
+
+/* line 191, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+.dev-card:hover .icon {
+  background: white;
+}
+
+/* line 194, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+.dev-card:hover h2::after {
+  background: white;
+}
+
+/* line 197, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+.dev-card:hover .dev-btn {
+  color: #926fb1;
+  background: white;
+  border-color: white;
+}
+
+/* line 205, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+.dev-card:hover {
+  background: #926fb1;
+}
+
+/* line 214, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+.bus:hover .bus-color {
+  display: initial;
+}
+
+/* line 218, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+.crane:hover .crane-color {
+  display: initial;
+}
+
+/* line 222, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+.beat:hover .beat-color {
+  display: initial;
+}
+
+/* line 226, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+.northern:hover .northern-color {
+  display: initial;
+}
+
 /* line 3, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/components/_buttons.scss */
 .menu {
   background: #333645;
@@ -471,6 +750,23 @@ h2::after {
 }
 
 /* line 214, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
+.bus,
+.crane,
+.beat,
+.northern {
+  position: relative;
+}
+
+/* line 221, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
+.bus-color,
+.crane-color,
+.beat-color,
+.northern-color {
+  position: absolute;
+  z-index: 10;
+}
+
+/* line 229, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
 .brand-container {
   display: flex;
   margin: 0 auto;
@@ -479,26 +775,32 @@ h2::after {
   min-width: 750px;
 }
 
-/* line 222, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
+/* line 237, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
 .brand-logo {
   padding: 0 20px;
   align-items: center;
+  display: flex;
+  overflow: hidden;
 }
 
-/* line 227, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
+/* line 244, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
 .brand-logo-color {
   display: none;
   padding: 0 20px;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
 }
 
-/* line 232, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
+/* line 253, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
 .accred {
   display: none;
   width: 100%;
   padding: 50px 0px;
 }
 
-/* line 238, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
+/* line 259, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
 .accred-imgs {
   display: flex;
   justify-content: center;
@@ -508,268 +810,9 @@ h2::after {
   margin: 0 auto;
 }
 
-/* line 247, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
+/* line 268, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
 .accred-img {
   padding: 0 20px;
-}
-
-/* line 262, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
-.software-card:hover p {
-  color: white;
-}
-
-/* line 265, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
-.software-card:hover h2 {
-  color: white;
-}
-
-/* line 268, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
-.software-card:hover .apps {
-  color: #67809f;
-}
-
-/* line 271, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
-.software-card:hover .icon {
-  background: white;
-}
-
-/* line 274, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
-.software-card:hover h2::after {
-  background: white;
-}
-
-/* line 277, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
-.software-card:hover .app-btn {
-  color: #67809f;
-  background: white;
-  border-color: white;
-}
-
-/* line 285, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
-.software-card:hover {
-  background: #67809f;
-}
-
-/* line 291, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
-.it-card:hover p {
-  color: white;
-}
-
-/* line 294, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
-.it-card:hover h2 {
-  color: white;
-}
-
-/* line 297, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
-.it-card:hover .it {
-  color: #4183d7;
-}
-
-/* line 300, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
-.it-card:hover .icon {
-  background: white;
-}
-
-/* line 303, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
-.it-card:hover h2::after {
-  background: white;
-}
-
-/* line 306, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
-.it-card:hover .it-btn {
-  color: #4183d7;
-  background: white;
-  border-color: white;
-}
-
-/* line 314, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
-.it-card:hover {
-  background: #4183d7;
-}
-
-/* line 320, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
-.digital-card:hover p {
-  color: white;
-}
-
-/* line 323, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
-.digital-card:hover h2 {
-  color: white;
-}
-
-/* line 326, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
-.digital-card:hover .digital-m {
-  color: #2ecc71;
-}
-
-/* line 329, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
-.digital-card:hover .icon {
-  background: white;
-}
-
-/* line 332, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
-.digital-card:hover h2::after {
-  background: white;
-}
-
-/* line 335, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
-.digital-card:hover .digital-btn {
-  color: #2ecc71;
-  background: white;
-  border-color: white;
-}
-
-/* line 343, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
-.digital-card:hover {
-  background: #2ecc71;
-}
-
-/* line 349, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
-.tele-card:hover p {
-  color: white;
-}
-
-/* line 352, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
-.tele-card:hover h2 {
-  color: white;
-}
-
-/* line 355, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
-.tele-card:hover .tele-c {
-  color: #d64541;
-}
-
-/* line 358, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
-.tele-card:hover .icon {
-  background: white;
-}
-
-/* line 361, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
-.tele-card:hover h2::after {
-  background: white;
-}
-
-/* line 364, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
-.tele-card:hover .tele-btn {
-  color: #d64541;
-  background: white;
-  border-color: white;
-}
-
-/* line 372, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
-.tele-card:hover {
-  background: #d64541;
-}
-
-/* line 378, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
-.web-card:hover p {
-  color: white;
-}
-
-/* line 381, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
-.web-card:hover h2 {
-  color: white;
-}
-
-/* line 384, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
-.web-card:hover .web {
-  color: #926fb1;
-}
-
-/* line 387, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
-.web-card:hover .icon {
-  background: white;
-}
-
-/* line 390, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
-.web-card:hover h2::after {
-  background: white;
-}
-
-/* line 393, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
-.web-card:hover .web-btn {
-  color: #926fb1;
-  background: white;
-  border-color: white;
-}
-
-/* line 401, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
-.web-card:hover {
-  background: #926fb1;
-}
-
-/* line 407, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
-.cyber-card:hover p {
-  color: white;
-}
-
-/* line 410, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
-.cyber-card:hover h2 {
-  color: white;
-}
-
-/* line 413, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
-.cyber-card:hover .cyber {
-  color: #f62459;
-}
-
-/* line 416, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
-.cyber-card:hover .icon {
-  background: white;
-}
-
-/* line 419, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
-.cyber-card:hover h2::after {
-  background: white;
-}
-
-/* line 422, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
-.cyber-card:hover .cyber-btn {
-  color: #f62459;
-  background: white;
-  border-color: white;
-}
-
-/* line 430, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
-.cyber-card:hover {
-  background: #f62459;
-}
-
-/* line 436, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
-.dev-card:hover p {
-  color: white;
-}
-
-/* line 439, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
-.dev-card:hover h2 {
-  color: white;
-}
-
-/* line 442, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
-.dev-card:hover .dev-t {
-  color: #926fb1;
-}
-
-/* line 445, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
-.dev-card:hover .icon {
-  background: white;
-}
-
-/* line 448, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
-.dev-card:hover h2::after {
-  background: white;
-}
-
-/* line 451, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
-.dev-card:hover .dev-btn {
-  color: #926fb1;
-  background: white;
-  border-color: white;
-}
-
-/* line 459, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
-.dev-card:hover {
-  background: #926fb1;
 }
 
 /* line 3, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_footer.scss */
@@ -1014,22 +1057,24 @@ footer a {
   /* line 112, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .footer-container {
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: flex-start;
     flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 970px;
   }
-  /* line 119, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 121, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .footer-block {
-    width: 45%;
+    width: 50%;
   }
-  /* line 123, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 125, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .social-block {
     max-height: 55px;
   }
-  /* line 127, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 131, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .linked {
     margin-top: 5px;
   }
-  /* line 131, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 135, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .accred {
     display: flex;
     align-items: center;

@@ -111,18 +111,22 @@
 
     .footer-container {
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: flex-start;
         flex-wrap: wrap;
+        margin: 0 auto;
+        max-width: 970px;
     }
 
 
     .footer-block {
-        width: 45%;
+        width: 50%;
     }
     
     .social-block {
         max-height: 55px;
     }
+
+
     
     .linked {
         margin-top: 5px;
