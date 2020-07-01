@@ -32,7 +32,9 @@
     }
     
     .fa-search {
-        display: none;
+        top: 1px;
+        right: 0;
+        color: white;
     }
 
     .search-btn {
@@ -90,6 +92,11 @@
 
     .news-block-3 {
         display: none;
+    }
+
+    .sponsors {
+        display: flex;
+        justify-content: center;
     }
 
 
