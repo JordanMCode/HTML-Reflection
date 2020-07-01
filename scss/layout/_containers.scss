@@ -24,6 +24,9 @@
 .card-container {
     width: 100%;
     padding: 50px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .card {
@@ -40,7 +43,6 @@
     text-align: center;
     margin-top: 30px;
     padding: 30px;
-    min-height: calc(100%/7);
 }
 
 
@@ -116,6 +118,7 @@ h2::after {
 }
 .news-block {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: left;
     flex-direction: column;
@@ -146,7 +149,6 @@ h2::after {
 
 .img-container {
     width: 100%;
-    height:100%;
     margin-bottom: -7px;
 }
 
@@ -156,6 +158,11 @@ h2::after {
     display: block;
 }
 
+.news {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
 
 .news-img {
     min-width: 100%;
@@ -164,19 +171,29 @@ h2::after {
 
 .news-text {
     border: 1px solid #ccc;
-    padding: 30px;
+    padding: 20px 30px;
+    font-size: .8125rem;
 }
 
 .news-text-content {
-    margin-bottom: 50px;
+    margin-bottom: 25px;
+    margin-top: 30px;;
 }
 
 .user {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin-top: 30px;
-    padding-top: 30px;
+    padding-top: 20px;
     border-top: 1px solid #ccc;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+}
+
+.user p {
+    margin: 0;
 }
 
 .user img {
@@ -184,6 +201,10 @@ h2::after {
     max-height: 47px; 
 }
 
+.user-text {
+    padding-left: 20px;
+    width: 100%;
+}
 
 .sponsors {
     display: none;
