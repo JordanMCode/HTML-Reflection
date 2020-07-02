@@ -265,8 +265,33 @@ h2::after {
     margin: 0 auto;
 }
 
-.accred-img {
+.accred-img,
+.accred-img-color {
     padding: 0 20px;
 }
 
+.accred-img {
+    align-items: center;
+    display: flex;
+}
 
+.accred-img-color {
+    display: none;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 7.5px;
+}
+
+
+.f-50,
+.qms,
+.carbon {
+    position: relative;
+}
+
+.f-50-color,
+.qms-color,
+.carbon-color {
+    position: absolute;
+}

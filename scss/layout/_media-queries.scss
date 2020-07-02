@@ -30,11 +30,21 @@
         width: 174px;
         margin: 0;
     }
-    
+
+    .search-icon {
+        display: none;
+    }
+
     .fa-search {
         top: 1px;
         right: 0;
         color: white;
+    }
+
+    .search-icon-md {
+        position: absolute;
+        top: 5px;
+        right: 7px;
     }
 
     .search-btn {
@@ -138,3 +148,43 @@
         justify-content: space-between;
     }
 }    
+
+
+@media screen and (min-width:992px) {
+
+    .header-logo {
+        width: 404px;
+        padding: 0 15px;
+        margin: 0;
+    }
+
+    .actions {
+        justify-content: flex-end;
+        width: 565px;
+        padding: 0 15px;
+        margin: 0;
+    }
+
+    .search-icon-lg {
+        position: absolute;
+        top: 5px;
+        right: 7px;
+    }
+
+    .search-btn-lg {
+        display: flex;
+        position: relative;
+    }
+
+    .search-bar {
+        display: none;
+    }
+
+    .support-btn,
+    .contact-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
