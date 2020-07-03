@@ -45,6 +45,7 @@ nav {
 
 
 .nav-sub-text {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     justify-items: center;
@@ -53,20 +54,32 @@ nav {
     text-transform: uppercase;
     color: white;
     margin: 0;
+    padding: 0;
 }
 
+
 .nav-sub-text li {
-    display: flex;
-    text-align: left;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
     vertical-align: middle;
-    width: 100%;
     height: 100%;
     padding-left: 20px;
 }
 
+.dash {
+    width: 6px;
+    height: 2px;
+    background-color: white;
+    display:block;
+    content: "";
+    margin: auto 0;
+    margin-left: 15px;
+}
 
 .web-nav-wrap {
-    display: flex;
+    display: none;
     justify-self: center;
     justify-items: center;
     justify-content: center;
@@ -88,3 +101,22 @@ nav {
     width: 925px;
     height: 45px;
 }
+
+
+
+
+
+// Nav Hover // 
+
+.web-nav {
+    &:hover {
+        background: $purple;
+        .web-nav-icon {
+            color: white;
+        }
+        .web-nav-wrap {
+            display: flex;
+        }
+    }
+}
+
