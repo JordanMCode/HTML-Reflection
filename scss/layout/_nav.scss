@@ -83,8 +83,25 @@ nav {
     margin-left: 24px;
 }
 
+.dash-lg {
+    width: 6px;
+    height: 2px;
+    background-color: white;
+    vertical-align: middle;
+    display: inline-block;
+    content: "";
+    margin: auto 0;
+    margin-left: 60px;
+}
 
-.web-nav-sub {
+
+
+.web-nav-sub,
+.support-nav-sub,
+.tele-nav-sub,
+.software-nav-sub,
+.digital-nav-sub,
+.cyber-nav-sub {
     position: absolute;
     top: 99px;
     left: 0px;
@@ -93,10 +110,34 @@ nav {
     flex-wrap: wrap;
     justify-content: space-between;
     justify-items: center;
-    background: #79539a;
     width: 100%;
     height: 45px;
     border: none;
+}
+
+
+.web-nav-sub {
+    background: $dark-purple;
+}
+
+.support-nav-sub {
+    background: $dark-blue;
+}
+
+.tele-nav-sub {
+    background: $dark-red;
+}
+
+.software-nav-sub {
+    background: $slate-blue;
+}
+
+.digital-nav-sub {
+    background: $dark-green;
+}
+
+.cyber-nav-sub {
+    background: $dark-pink;
 }
 
 .web-nav-sub::before {
@@ -123,6 +164,126 @@ nav {
     border: none;
 }
 
+.support-nav-sub::before {
+    content: "";
+    height: 45px;
+    width: 500px;
+    position: absolute;
+    top: 0;
+    right: 100%;
+    background: $dark-blue;
+    overflow: hidden;
+    border: none;
+}
+
+.support-nav-sub::after {
+    content: "";
+    height: 45px;
+    width: 2000px;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background: $dark-blue;
+    overflow: hidden;
+    border: none;
+}
+
+.tele-nav-sub::before {
+    content: "";
+    height: 45px;
+    width: 500px;
+    position: absolute;
+    top: 0;
+    right: 100%;
+    background: $dark-red;
+    overflow: hidden;
+    border: none;
+}
+
+.tele-nav-sub::after {
+    content: "";
+    height: 45px;
+    width: 2000px;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background: $dark-red;
+    overflow: hidden;
+    border: none;
+}
+
+.software-nav-sub::before {
+    content: "";
+    height: 45px;
+    width: 500px;
+    position: absolute;
+    top: 0;
+    right: 100%;
+    background: $slate-blue;
+    overflow: hidden;
+    border: none;
+}
+
+.software-nav-sub::after {
+    content: "";
+    height: 45px;
+    width: 2000px;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background: $slate-blue;
+    overflow: hidden;
+    border: none;
+}
+
+.digital-nav-sub::before {
+    content: "";
+    height: 45px;
+    width: 500px;
+    position: absolute;
+    top: 0;
+    right: 100%;
+    background: $dark-green;
+    overflow: hidden;
+    border: none;
+}
+
+.digital-nav-sub::after {
+    content: "";
+    height: 45px;
+    width: 2000px;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background: $dark-green;
+    overflow: hidden;
+    border: none;
+}
+
+.cyber-nav-sub::before {
+    content: "";
+    height: 45px;
+    width: 500px;
+    position: absolute;
+    top: 0;
+    right: 100%;
+    background: $dark-pink;
+    overflow: hidden;
+    border: none;
+}
+
+.cyber-nav-sub::after {
+    content: "";
+    height: 45px;
+    width: 2000px;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background: $dark-pink;
+    overflow: hidden;
+    border: none;
+}
+
 
 // Nav Hover // 
 
@@ -138,5 +299,62 @@ nav {
     }
 }
 
+.support-nav {
+    &:hover {
+        background: $light-blue;
+        .support-nav-icon {
+            color: white;
+        }
+        .support-nav-sub {
+            display: flex;
+        }
+    }
+}
 
+.tele-nav {
+    &:hover {
+        background: $red;
+        .tele-nav-icon {
+            color: white;
+        }
+        .tele-nav-sub {
+            display: flex;
+        }
+    }
+}
 
+    .software-nav {
+    &:hover {
+        background: $grey-blue;
+        .software-nav-icon {
+            color: white;
+        }
+        .software-nav-sub {
+            display: flex;
+        }
+    } 
+}
+
+        .digital-nav {
+    &:hover {
+        background: $green;
+        .digital-nav-icon {
+            color: white;
+        }
+        .digital-nav-sub {
+            display: flex;
+        }
+    }
+}
+
+        .cyber-nav {
+    &:hover {
+        background: $hot-pink;
+        .cyber-nav-icon {
+            color: white;
+        }
+        .cyber-nav-sub {
+            display: flex;
+        }
+    }
+}
