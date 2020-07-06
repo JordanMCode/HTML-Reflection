@@ -123,8 +123,7 @@
         flex-direction: row;
         justify-content: flex-start;
         flex-wrap: wrap;
-        margin: 0 auto;
-        max-width: 970px;
+        width: 750px;
     }
 
 
@@ -151,6 +150,11 @@
 
 
 @media screen and (min-width:992px) {
+
+    .header-container {
+        max-width: 970px;
+        margin: 0 auto;
+    }
 
     .header-logo {
         width: 404px;
@@ -191,5 +195,69 @@
         display: flex;
         flex-wrap: wrap;
     }
+
+
+    .cards {
+        width: 920px;
+        max-width: 920px;
+    }
+
+    .card {
+        padding: 15px 30px;
+    }
+
+    .card-column-1 {
+        width: 293.33px;
+        height: 356px;
+        margin: 0;
+        padding: 5px 30px 15px 30px;
+    }
+
+    .card-column-2 {
+        width: 440px;
+        height: 290px;
+        margin: 30px 0 0 0;
+    }
+
+
+    .news {
+        width: 970px;
+        max-width: 970px;
+    }
+
+    .news-block-1,
+    .news-block-2 {
+        width: 485px;
+        length: 663px; 
+        max-width: 485px;
+    }
+
+    .brand-container {
+        width: 970px;
+    }
+    
+    .accred {
+        height: 210.9px;
+    }
+
+    .accred-imgs {
+        width: 970px;
+        max-width: 970px;
+        max-height: 110px;
+    }
+
+    .accred-img-color {
+        top: 0px;
+    }
+
+    .footer-container {
+        width: 970px;
+        max-width: 970px;
+    }
+}
+
+@media screen and (min-width: 1260px) {
+
+    
 
 }
