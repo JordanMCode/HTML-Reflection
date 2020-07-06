@@ -18,33 +18,38 @@
         display: none;
     }
 
-    .search-bar {
+    .menu {
         order: 2;
+    }
+
+    .search-bar-mobile {
+        display: none;
+    }
+
+    .search-bar {
+        order: 1;
         height: 56px;
         width: 237px;
         margin: 0;
     }
 
     .search {
+        display: flex;
         height: 56px;
         width: 174px;
         margin: 0;
     }
 
-    .search-icon {
+    .search-icon-mobile {
         display: none;
     }
 
-    .fa-search {
-        top: 1px;
-        right: 0;
-        color: white;
-    }
-
     .search-icon-md {
+        display: flex;
         position: absolute;
         top: 5px;
-        right: 7px;
+        right: -2px;
+        color: white;
     }
 
     .search-btn {
@@ -106,11 +111,10 @@
 
     .sponsors {
         display: flex;
-        justify-content: space-around;
         justify-items: center;
-        align-items: flex-start;
         padding: 50px 0;
         margin: 0 15px;
+        height: 165px;
     }
 
     .brand-logo {
@@ -171,8 +175,15 @@
 
     .search-icon-lg {
         position: absolute;
-        top: 5px;
-        right: 7px;
+        top: 15px;
+        right: 17px;
+        color: white;    
+    }
+    
+    .search-icon-md {
+        top: 1px;
+        right: 0;
+        color: white;
     }
 
     .search-btn-lg {
@@ -194,6 +205,10 @@
     nav {
         display: flex;
         flex-wrap: wrap;
+    }
+
+    .hero {
+        height: 80vh;
     }
 
 
@@ -228,7 +243,7 @@
     .news-block-1,
     .news-block-2 {
         width: 485px;
-        length: 663px; 
+        height: 663px; 
         max-width: 485px;
     }
 
@@ -258,6 +273,129 @@
 
 @media screen and (min-width: 1260px) {
 
+    .header-container {
+        width: 1200px;
+        max-width: 1200px;
+    }
     
+    .actions {
+        width: 800px;
+        height: 70px;
+    }
 
+    .search-btn-lg {
+        display: none;
+    }
+
+    .search-bar {
+        display: flex;
+        margin-left: 20px;
+        width: 296px;
+    }
+
+    .search-icon-md {
+        top: 4px;
+        right: -3px;
+    }
+
+    .search {
+        width: 240px;
+    }
+
+    .main-nav-container {
+        width: 1230px;
+        max-width: 1230px;
+    }
+
+        .web-nav,
+    .support-nav,
+    .tele-nav,
+    .software-nav,
+    .digital-nav,
+    .cyber-nav {
+        width: 192.67px;
+    }
+
+    .nav-sub-text {
+        width: 1170px;
+    }
+
+    .dash {
+        margin-left: 50px;
+    }
+
+    .dash-lg {
+        margin-left: 100px;
+    }
+
+    .cards {
+        width: 1200px;
+        max-width: 1200px;
+    }
+
+    .card-column-1 {
+        width: 380px;
+        height: 312px;
+    }
+
+    .card-column-2 {
+        width: 275px;
+        height: 312px;
+    }
+
+    .info-container {
+        justify-content: start;
+        width: 1200px;
+        margin: 0 auto;
+    }
+
+    .info-container-inner {
+        width: 600px;
+    }
+
+    .news {
+        width: 1200px;
+        max-width: 1200px;
+    }
+
+    .news-block-3 {
+        display: block;
+        margin-left: 30px;
+    }
+
+    .news-block-1,
+    .news-block-2,
+    .news-block-3 {
+        width: 370px;
+        height: 618.86px;
+    }
+
+    .news-text {
+        width: 370px;
+        height: 370px;
+    }
+
+    footer {
+        height: 309px;
+        padding: 47px 0 43px;
+        display: flex;
+    }
+
+    .footer-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        width: 1200px;
+        max-width: 1200px;
+        padding: 0;
+    }
+
+    .footer-block {
+        width: 300px;
+    }
+
+    .linked {
+        margin-top: 24px;
+    }
 }

@@ -66,6 +66,12 @@ h2::after {
     display: block;
 }
 
+.info-container-background {
+    width: 100%;
+    background: #333645;
+}
+
+
 .info-container {
     display: flex;
     justify-content: center;
@@ -156,7 +162,7 @@ h2::after {
 
 .img-container {
     width: 100%;
-    margin-bottom: -7px;
+    margin-bottom: -8px;
 }
 
 .img-container-a {
@@ -180,6 +186,11 @@ h2::after {
     border: 1px solid #ccc;
     padding: 20px 30px;
     font-size: .8125rem;
+    line-height: 1.375rem;
+}
+
+.news-text p {
+    line-height: 1.375rem;
 }
 
 .news-text-content {
