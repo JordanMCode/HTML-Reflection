@@ -99,6 +99,7 @@ h2::after {
 .latest-bar {
     display: flex;
     align-items: center;
+
     height: 104px;
     margin-right: auto;
     margin-left: auto;
@@ -126,8 +127,9 @@ h2::after {
 
 
 .news-section {
-    padding: 15px 15px 50px;
+    padding: 50px 15px 50px;
     width: 100%;
+    background-image: linear-gradient(to bottom, rgba(230,230,230,.4), rgba(230,230,230,0));
 }
 .news-block {
     display: flex;
@@ -224,6 +226,11 @@ h2::after {
     width: 100%;
 }
 
+.sponsor-wrap {
+    box-shadow: inset 0px 1px 30px -20px #666666;
+    width: 100%;
+}
+
 .sponsors {
     display: none;
     height: 145.11px;
@@ -247,7 +254,7 @@ h2::after {
 .brand-container {
     display: flex;
     margin: 0 auto;
-    justify-items: center;
+    justify-items: space-between;
     width: 750px;
     min-width: 750px;
 }
@@ -277,7 +284,6 @@ h2::after {
 .accred-imgs {
     display: flex;
     justify-content: center;
-    width: 100%;
     max-width: 750px;
     max-height: 88px;
     margin: 0 auto;
@@ -300,7 +306,6 @@ h2::after {
     left: 0px;
     top: 7.5px;
 }
-
 
 .f-50,
 .qms,

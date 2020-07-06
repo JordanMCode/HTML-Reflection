@@ -82,10 +82,15 @@
     }
 
 
+    .latest-bar {
+        width: 750px;
+        max-width: 750px;
+        padding: 0;
+    }
 
     .news {
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-between;
         height: 100%;
         max-width: 750px;
         margin: 0 auto;
@@ -112,9 +117,25 @@
     .sponsors {
         display: flex;
         justify-items: center;
+        margin: 0 auto;
         padding: 50px 0;
-        margin: 0 15px;
-        height: 165px;
+        height: 170px;
+        width: 750px;
+        max-width: 750px;
+    }
+
+        .brand-container {
+        display: flex;
+        align-content: center;
+        justify-content: space-between;
+    }
+
+    .northern {
+        padding-right: 0;
+    }
+
+    .bus {
+        padding-left: 0;
     }
 
     .brand-logo {
@@ -235,6 +256,12 @@
     }
 
 
+    .latest-bar {
+        width: 970px;
+        max-width: 970px;
+        padding: 0;
+    }
+
     .news {
         width: 970px;
         max-width: 970px;
@@ -247,8 +274,14 @@
         max-width: 485px;
     }
 
+    .sponsors {
+        width: 970px;
+        max-width: 970px;
+    }
+
     .brand-container {
         width: 970px;
+        max-width: 970px;
     }
     
     .accred {
@@ -259,6 +292,7 @@
         width: 970px;
         max-width: 970px;
         max-height: 110px;
+        height: 110px;
     }
 
     .accred-img-color {
@@ -353,6 +387,13 @@
         width: 600px;
     }
 
+
+    .latest-bar {
+        width: 1200px;
+        max-width: 1200px;
+        padding: 0;
+    }
+
     .news {
         width: 1200px;
         max-width: 1200px;
@@ -373,6 +414,17 @@
     .news-text {
         width: 370px;
         height: 370px;
+    }
+
+    .sponsor-wrap {
+        display: flex;
+        align-content: center;
+    }
+
+    .brand-container,
+    .sponsors {
+        width: 1200px;
+        max-width: 1200px;
     }
 
     footer {
