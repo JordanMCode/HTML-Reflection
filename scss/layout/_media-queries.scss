@@ -229,19 +229,16 @@
     }
 
     .hero {
-        height: 80vh;
-    }
-
-
-    .hero {
         flex-direction: row;
         justify-content: flex-start;
+        height: 80vh;
     }
 
     .hero-text {
         justify-content: flex-start;
         text-align: start;
-        margin: 0 110px;
+        margin: 0 auto;
+        width: 970px;
     }
 
     .hero-btn {
@@ -423,6 +420,11 @@
         margin-left: 100px;
     }
 
+    .hero-text {
+        width: 1200px;
+    }
+
+
     .cards {
         width: 1200px;
         max-width: 1200px;
@@ -584,7 +586,7 @@
 
     .card {
         display: block;
-        padding: 25px 32px;
+        padding: 30px 32px;
     }
 
     .card p {
@@ -594,4 +596,26 @@
     .card-btn {
         padding: 10px;
     }
+
+    a {
+        cursor: pointer;
+    }
+}
+
+@media (min-width:992px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+
+    .hero-text {
+        width: 970px;
+        padding-left: 30px;
+    }
+
+}
+
+@media (min-width:1260px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+
+    .hero-text {
+        width: 1200px;
+        padding-left: 25px;
+    }
+
 }

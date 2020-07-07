@@ -48,308 +48,329 @@ small {
   font-size: .625rem;
 }
 
-/* line 5, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+/* line 2, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+:any-link {
+  cursor: pointer;
+}
+
+/* line 11, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .support-btn:hover {
   background: #2a6ec6;
   border-color: #2665b5;
 }
 
-/* line 10, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+/* line 16, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .contact-btn:hover {
   background: #84858f;
   border-color: #797a85;
 }
 
-/* line 22, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+/* line 28, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .software-card:hover p {
   color: white;
 }
 
-/* line 25, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+/* line 31, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .software-card:hover h2 {
   color: white;
 }
 
-/* line 28, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+/* line 34, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .software-card:hover .apps {
   color: #67809f;
 }
 
-/* line 31, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+/* line 37, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .software-card:hover .icon {
   background: white;
 }
 
-/* line 34, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+/* line 40, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .software-card:hover h2::after {
   background: white;
 }
 
-/* line 37, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+/* line 43, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .software-card:hover .app-btn {
   color: #67809f;
   background: white;
   border-color: white;
 }
 
-/* line 45, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+/* line 51, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .software-card:hover {
   background: #67809f;
 }
 
-/* line 51, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+/* line 57, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .it-card:hover p {
   color: white;
 }
 
-/* line 54, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+/* line 60, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .it-card:hover h2 {
   color: white;
 }
 
-/* line 57, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+/* line 63, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .it-card:hover .it {
   color: #4183d7;
 }
 
-/* line 60, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+/* line 66, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .it-card:hover .icon {
   background: white;
 }
 
-/* line 63, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+/* line 69, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .it-card:hover h2::after {
   background: white;
 }
 
-/* line 66, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+/* line 72, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .it-card:hover .it-btn {
   color: #4183d7;
   background: white;
   border-color: white;
 }
 
-/* line 74, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+/* line 80, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .it-card:hover {
   background: #4183d7;
 }
 
-/* line 80, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+/* line 86, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .digital-card:hover p {
   color: white;
 }
 
-/* line 83, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+/* line 89, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .digital-card:hover h2 {
   color: white;
 }
 
-/* line 86, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+/* line 92, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .digital-card:hover .digital-m {
   color: #2ecc71;
 }
 
-/* line 89, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+/* line 95, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .digital-card:hover .icon {
   background: white;
 }
 
-/* line 92, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+/* line 98, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .digital-card:hover h2::after {
   background: white;
 }
 
-/* line 95, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+/* line 101, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .digital-card:hover .digital-btn {
   color: #2ecc71;
   background: white;
   border-color: white;
 }
 
-/* line 103, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+/* line 109, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .digital-card:hover {
   background: #2ecc71;
 }
 
-/* line 109, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+/* line 115, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .tele-card:hover p {
   color: white;
 }
 
-/* line 112, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+/* line 118, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .tele-card:hover h2 {
   color: white;
 }
 
-/* line 115, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+/* line 121, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .tele-card:hover .tele-c {
   color: #d64541;
 }
 
-/* line 118, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+/* line 124, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .tele-card:hover .icon {
   background: white;
 }
 
-/* line 121, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+/* line 127, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .tele-card:hover h2::after {
   background: white;
 }
 
-/* line 124, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+/* line 130, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .tele-card:hover .tele-btn {
   color: #d64541;
   background: white;
   border-color: white;
 }
 
-/* line 132, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+/* line 138, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .tele-card:hover {
   background: #d64541;
 }
 
-/* line 138, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+/* line 144, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .web-card:hover p {
   color: white;
 }
 
-/* line 141, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+/* line 147, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .web-card:hover h2 {
   color: white;
 }
 
-/* line 144, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+/* line 150, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .web-card:hover .web {
   color: #926fb1;
 }
 
-/* line 147, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+/* line 153, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .web-card:hover .icon {
   background: white;
 }
 
-/* line 150, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+/* line 156, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .web-card:hover h2::after {
   background: white;
 }
 
-/* line 153, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+/* line 159, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .web-card:hover .web-btn {
   color: #926fb1;
   background: white;
   border-color: white;
 }
 
-/* line 161, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+/* line 167, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .web-card:hover {
   background: #926fb1;
 }
 
-/* line 167, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+/* line 173, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .cyber-card:hover p {
   color: white;
 }
 
-/* line 170, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+/* line 176, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .cyber-card:hover h2 {
   color: white;
 }
 
-/* line 173, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+/* line 179, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .cyber-card:hover .cyber {
   color: #f62459;
 }
 
-/* line 176, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+/* line 182, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .cyber-card:hover .icon {
   background: white;
 }
 
-/* line 179, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+/* line 185, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .cyber-card:hover h2::after {
   background: white;
 }
 
-/* line 182, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+/* line 188, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .cyber-card:hover .cyber-btn {
   color: #f62459;
   background: white;
   border-color: white;
 }
 
-/* line 190, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+/* line 196, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .cyber-card:hover {
   background: #f62459;
 }
 
-/* line 196, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+/* line 202, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .dev-card:hover p {
   color: white;
 }
 
-/* line 199, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+/* line 205, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .dev-card:hover h2 {
   color: white;
 }
 
-/* line 202, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+/* line 208, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .dev-card:hover .dev-t {
   color: #926fb1;
 }
 
-/* line 205, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+/* line 211, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .dev-card:hover .icon {
   background: white;
 }
 
-/* line 208, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+/* line 214, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .dev-card:hover h2::after {
   background: white;
 }
 
-/* line 211, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+/* line 217, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .dev-card:hover .dev-btn {
   color: #926fb1;
   background: white;
   border-color: white;
 }
 
-/* line 219, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+/* line 225, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .dev-card:hover {
   background: #926fb1;
 }
 
-/* line 228, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+/* line 233, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+.news-title:hover {
+  text-decoration: underline;
+}
+
+/* line 237, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+.case-title:hover {
+  text-decoration: underline;
+}
+
+/* line 241, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+.news-tag:hover,
+.case-tag:hover {
+  text-decoration: underline;
+}
+
+/* line 250, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .bus:hover {
   background-image: url(/NmHomepage/img/bus-color.png);
 }
 
-/* line 232, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+/* line 254, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .crane:hover {
   background-image: url(/NmHomepage/img/crane-color.png);
 }
 
-/* line 236, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+/* line 258, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .beat:hover {
   background-image: url(/NmHomepage/img/beat-color.png);
 }
 
-/* line 240, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+/* line 262, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .northern:hover {
   background-image: url(/NmHomepage/img/nd-color.png);
 }
 
-/* line 249, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+/* line 271, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .f-50:hover {
   background-image: url(/NmHomepage/img/f50-color.jpeg);
 }
 
-/* line 253, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+/* line 275, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .qms:hover {
   background-image: url(/NmHomepage/img/qms-color.jpeg);
 }
 
-/* line 257, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+/* line 279, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .carbon:hover {
   background-image: url(/NmHomepage/img/carbon-color.jpeg);
 }
@@ -597,20 +618,21 @@ small {
   background-position: center;
   height: 681px;
   color: white;
+  padding-bottom: 50px;
 }
 
-/* line 18, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
+/* line 19, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
 .hero-text {
   width: 100%;
 }
 
-/* line 22, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
+/* line 23, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
 .hero p {
   font-size: 1.25rem;
   margin: 0 15% 35px 15%;
 }
 
-/* line 27, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
+/* line 28, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
 .card-container {
   width: 100%;
   padding: 50px 15px;
@@ -619,7 +641,7 @@ small {
   align-items: center;
 }
 
-/* line 35, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
+/* line 36, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
 .card {
   display: flex;
   justify-content: center;
@@ -634,23 +656,24 @@ small {
   text-align: center;
   margin-top: 30px;
   padding: 30px;
+  color: #333645;
 }
 
-/* line 52, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
+/* line 54, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
 .card h2 {
   font-size: 1.125rem;
   font-weight: 400;
   margin-bottom: 10px;
 }
 
-/* line 58, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
+/* line 60, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
 .card p {
   font-size: .8125rem;
   line-height: 1.375rem;
   margin-top: 0;
 }
 
-/* line 64, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
+/* line 66, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
 h2::after {
   content: "";
   background: black;
@@ -660,13 +683,13 @@ h2::after {
   display: block;
 }
 
-/* line 73, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
+/* line 75, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
 .info-container-background {
   width: 100%;
   background: #333645;
 }
 
-/* line 79, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
+/* line 81, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
 .info-container {
   display: flex;
   justify-content: center;
@@ -677,24 +700,24 @@ h2::after {
   padding: 25px 15px 25px 15px;
 }
 
-/* line 89, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
+/* line 91, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
 .info-container-inner {
   width: 750px;
   padding: 15px;
 }
 
-/* line 94, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
+/* line 96, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
 .info-container h1 {
   margin-top: 0;
   font-size: 2.25rem;
 }
 
-/* line 99, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
+/* line 101, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
 .info-container p {
   margin-bottom: 25px;
 }
 
-/* line 103, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
+/* line 105, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
 .latest-bar {
   display: flex;
   align-items: center;
@@ -706,7 +729,7 @@ h2::after {
   background: white;
 }
 
-/* line 115, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
+/* line 117, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
 .news-header {
   color: #333645;
   list-style: none;
@@ -718,14 +741,14 @@ h2::after {
   border-bottom: solid 5px #333645;
 }
 
-/* line 127, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
+/* line 129, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
 .news-section {
   padding: 50px 15px 50px;
   width: 100%;
   background-image: linear-gradient(to bottom, rgba(230, 230, 230, 0.4), rgba(230, 230, 230, 0));
 }
 
-/* line 132, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
+/* line 134, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
 .news-block {
   display: flex;
   flex-direction: row;
@@ -740,54 +763,79 @@ h2::after {
   text-align: left;
 }
 
-/* line 146, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
+/* line 148, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
 .case {
   background: #926fb1;
   border-color: #926fb1;
 }
 
-/* line 151, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
+/* line 153, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
 .news-color {
   background: #4183d7;
 }
 
-/* line 155, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
+/* line 157, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
 .case-title {
   color: #926fb1;
 }
 
-/* line 159, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
+/* line 161, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
 .news-title {
   color: #4183d7;
 }
 
-/* line 163, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
+/* line 165, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
 .img-container {
   width: 100%;
   margin-bottom: -8px;
+  position: relative;
 }
 
-/* line 168, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
+/* line 171, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
+.news-tag,
+.case-tag {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  font-size: .75rem;
+  width: 55px;
+  height: 23px;
+  padding: 0 10px;
+  line-height: 1.483rem;
+  text-transform: uppercase;
+  z-index: 1;
+  background: #4183d7;
+  color: white;
+  font-weight: 600;
+}
+
+/* line 188, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
+.case-tag {
+  width: 110px;
+  background: #926fb1;
+}
+
+/* line 193, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
 .img-container-a {
   width: 100%;
   height: 100%;
   display: block;
 }
 
-/* line 174, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
+/* line 199, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
 .news {
   display: flex;
   flex-direction: column;
   height: 100%;
 }
 
-/* line 180, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
+/* line 205, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
 .news-img {
   min-width: 100%;
   border: 1px solid #ccc;
 }
 
-/* line 185, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
+/* line 210, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
 .news-text {
   border: 1px solid #ccc;
   padding: 20px 30px;
@@ -795,18 +843,18 @@ h2::after {
   line-height: 1.375rem;
 }
 
-/* line 192, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
+/* line 217, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
 .news-text p {
   line-height: 1.375rem;
 }
 
-/* line 196, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
+/* line 221, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
 .news-text-content {
   margin-bottom: 25px;
   margin-top: 30px;
 }
 
-/* line 201, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
+/* line 226, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
 .user {
   display: flex;
   flex-direction: row;
@@ -819,35 +867,35 @@ h2::after {
   width: 100%;
 }
 
-/* line 213, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
+/* line 238, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
 .user p {
   margin: 0;
 }
 
-/* line 217, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
+/* line 242, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
 .user img {
   max-width: 47px;
   max-height: 47px;
 }
 
-/* line 222, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
+/* line 247, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
 .user-text {
   padding-left: 20px;
   width: 100%;
 }
 
-/* line 227, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
+/* line 252, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
 .sponsor-wrap {
   box-shadow: inset 0px 1px 30px -20px #666666;
   width: 100%;
 }
 
-/* line 232, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
+/* line 257, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
 .sponsors {
   display: none;
 }
 
-/* line 238, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
+/* line 263, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
 .brand-logo {
   display: block;
   background-size: contain;
@@ -855,7 +903,7 @@ h2::after {
   background-repeat: no-repeat;
 }
 
-/* line 245, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
+/* line 270, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
 .bus {
   background-image: url("/NmHomepage/img/bus.jpeg");
   height: auto;
@@ -863,28 +911,28 @@ h2::after {
   height: 45.11px;
 }
 
-/* line 252, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
+/* line 277, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
 .crane {
   background-image: url("/NmHomepage/img/crane.jpeg");
   height: 45.11px;
   width: 184.95px;
 }
 
-/* line 258, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
+/* line 283, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
 .beat {
   background-image: url("/NmHomepage/img/beat.jpeg");
   height: 46.39px;
   width: 45.09px;
 }
 
-/* line 264, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
+/* line 289, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
 .northern {
   background-image: url("/NmHomepage/img/nd.jpeg");
   height: 45.09px;
   width: 207.5px;
 }
 
-/* line 270, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
+/* line 295, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
 .brand-container {
   display: flex;
   margin: 0 auto;
@@ -893,14 +941,14 @@ h2::after {
   height: 56px;
 }
 
-/* line 278, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
+/* line 303, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
 .accred {
   display: none;
   width: 100%;
   padding: 50px 0px;
 }
 
-/* line 284, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
+/* line 309, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
 .accred-imgs {
   display: flex;
   justify-content: space-around;
@@ -910,42 +958,42 @@ h2::after {
   margin: 0 auto;
 }
 
-/* line 294, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
+/* line 319, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
 .accred-img {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-/* line 301, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
+/* line 326, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
 .google {
   background-image: url(/NmHomepage/img/google-partner.png);
   width: 220px;
   height: 82px;
 }
 
-/* line 307, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
+/* line 332, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
 .micro {
   background-image: url(/NmHomepage/img/Micro.jpeg);
   width: 127.56px;
   height: 53.3px;
 }
 
-/* line 313, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
+/* line 338, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
 .f-50 {
   background-image: url(/NmHomepage/img/f50.jpeg);
   width: 73.5px;
   height: 52.38px;
 }
 
-/* line 319, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
+/* line 344, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
 .qms {
   background-image: url(/NmHomepage/img/qms.jpeg);
   width: 85.69px;
   height: 53.3px;
 }
 
-/* line 325, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
+/* line 350, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
 .carbon {
   background-image: url(/NmHomepage/img/carbon.jpeg);
   width: 173.25px;
@@ -1799,133 +1847,131 @@ footer a {
   }
   /* line 231, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .hero {
-    height: 80vh;
-  }
-  /* line 236, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
-  .hero {
     flex-direction: row;
     justify-content: flex-start;
+    height: 80vh;
   }
-  /* line 241, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 237, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .hero-text {
     justify-content: flex-start;
     text-align: start;
-    margin: 0 110px;
+    margin: 0 auto;
+    width: 970px;
   }
-  /* line 247, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 244, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .hero-btn {
     margin: 0;
   }
-  /* line 251, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 248, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .cards {
     width: 920px;
     max-width: 920px;
   }
-  /* line 256, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 253, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .card {
     padding: 15px 30px;
   }
-  /* line 260, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 257, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .card-column-1 {
     width: 293.33px;
     height: 356px;
     margin: 0;
     padding: 5px 30px 15px 30px;
   }
-  /* line 267, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 264, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .card-column-2 {
     width: 440px;
     height: 290px;
     margin: 30px 0 0 0;
   }
-  /* line 274, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 271, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .info-container,
   .info-container-inner {
     justify-content: flex-start;
     width: 970px;
     max-width: 970px;
   }
-  /* line 282, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 279, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .latest-bar {
     width: 970px;
     max-width: 970px;
     padding: 0;
   }
-  /* line 288, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 285, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .news {
     width: 970px;
     max-width: 970px;
   }
-  /* line 293, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 290, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .news-block-1,
   .news-block-2 {
     width: 485px;
     height: 600px;
     max-width: 485px;
   }
-  /* line 300, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 297, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .sponsors {
     width: 970px;
     max-width: 970px;
   }
-  /* line 306, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 303, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .bus {
     width: 168.75px;
   }
-  /* line 310, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 307, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .beat {
     width: 64.63px;
   }
-  /* line 314, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 311, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .crane {
     width: 257.61px;
   }
-  /* line 318, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 315, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .northern {
     width: 289.02px;
   }
-  /* line 322, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 319, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .brand-logo {
     height: 100%;
   }
-  /* line 326, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 323, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .brand-container {
     width: 970px;
     max-width: 970px;
     height: 62.83px;
   }
-  /* line 332, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 329, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .accred {
     height: 210.9px;
   }
-  /* line 336, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 333, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .accred-imgs {
     width: 970px;
     max-width: 970px;
     max-height: 110px;
     height: 110px;
   }
-  /* line 343, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 340, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .micro {
     width: 140.2px;
     height: 85.33px;
   }
-  /* line 348, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 345, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .f-50 {
     width: 69.2px;
     height: 110.09px;
   }
-  /* line 353, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 350, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .qms {
     width: 85.2px;
     height: 99.39px;
   }
-  /* line 358, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 355, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .carbon {
     width: 202.2px;
     height: 80.08px;
   }
-  /* line 363, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 360, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .footer-container {
     width: 970px;
     max-width: 970px;
@@ -1933,41 +1979,41 @@ footer a {
 }
 
 @media screen and (min-width: 1260px) {
-  /* line 371, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 368, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .header-container {
     width: 1200px;
     max-width: 1200px;
   }
-  /* line 376, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 373, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .actions {
     width: 800px;
     height: 70px;
   }
-  /* line 381, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 378, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .search-btn-lg {
     display: none;
   }
-  /* line 385, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 382, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .search-bar {
     display: flex;
     margin-left: 20px;
     width: 296px;
   }
-  /* line 391, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 388, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .search-icon-md {
     top: 4px;
     right: -3px;
   }
-  /* line 396, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 393, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .search {
     width: 240px;
   }
-  /* line 400, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 397, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .main-nav-container {
     width: 1230px;
     max-width: 1230px;
   }
-  /* line 405, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 402, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .web-nav,
   .support-nav,
   .tele-nav,
@@ -1976,111 +2022,115 @@ footer a {
   .cyber-nav {
     width: 192.67px;
   }
-  /* line 414, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 411, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .nav-sub-text {
     width: 1170px;
   }
-  /* line 418, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 415, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .dash {
     margin-left: 50px;
   }
-  /* line 422, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 419, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .dash-lg {
     margin-left: 100px;
   }
-  /* line 426, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 423, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  .hero-text {
+    width: 1200px;
+  }
+  /* line 428, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .cards {
     width: 1200px;
     max-width: 1200px;
   }
-  /* line 431, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 433, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .card-column-1 {
     width: 380px;
     height: 312px;
   }
-  /* line 436, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 438, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .card-column-2 {
     width: 275px;
     height: 312px;
   }
-  /* line 441, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 443, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .info-container {
     justify-content: start;
     width: 1200px;
     max-width: 1200px;
     margin: 0 auto;
   }
-  /* line 448, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 450, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .info-container-inner {
     width: 600px;
   }
-  /* line 453, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 455, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .latest-bar {
     width: 1200px;
     max-width: 1200px;
     padding: 0;
   }
-  /* line 459, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 461, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .news {
     width: 1200px;
     max-width: 1200px;
   }
-  /* line 464, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 466, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .news-block-3 {
     display: block;
     margin-left: 30px;
   }
-  /* line 469, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 471, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .news-block-1,
   .news-block-2,
   .news-block-3 {
     width: 370px;
     height: 618.86px;
   }
-  /* line 476, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 478, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .news-text {
     width: 370px;
     height: 370px;
   }
-  /* line 481, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 483, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .sponsor-wrap {
     display: flex;
     align-content: center;
   }
-  /* line 486, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 488, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .brand-container,
   .sponsors {
     width: 1200px;
     max-width: 1200px;
     justify-content: space-around;
   }
-  /* line 493, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 495, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .brand-container {
     height: 70px;
   }
-  /* line 497, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 499, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .bus {
     width: 188px;
   }
-  /* line 501, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 503, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .crane {
     width: 287px;
   }
-  /* line 505, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 507, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .beat {
     width: 72px;
   }
-  /* line 509, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 511, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .northern {
     width: 322px;
   }
-  /* line 513, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 515, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   footer {
     height: 309px;
     padding: 47px 0 43px;
     display: flex;
   }
-  /* line 519, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 521, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .footer-container {
     display: flex;
     justify-content: center;
@@ -2090,35 +2140,35 @@ footer a {
     max-width: 1200px;
     padding: 0;
   }
-  /* line 529, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 531, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .footer-block {
     width: 300px;
   }
-  /* line 533, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 535, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .linked {
     margin-top: 24px;
   }
-  /* line 538, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 540, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .accred-imgs {
     width: 1200px;
     max-width: 1200px;
   }
-  /* line 543, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 545, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .micro {
     width: 115px;
     height: 70px;
   }
-  /* line 548, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 550, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .f-50 {
     width: 44px;
     height: 70px;
   }
-  /* line 553, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 555, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .qms {
     width: 60px;
     height: 70px;
   }
-  /* line 558, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 560, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .carbon {
     width: 175px;
     height: 70px;
@@ -2126,11 +2176,11 @@ footer a {
 }
 
 @media (min-width: 768px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  /* line 567, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 569, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .search-btn {
     width: 64px;
   }
-  /* line 571, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 573, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .web-nav,
   .support-nav,
   .tele-nav,
@@ -2139,23 +2189,43 @@ footer a {
   .cyber-nav {
     padding: 4px 0 0 0;
   }
-  /* line 580, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 582, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .hero-text {
     width: auto;
     text-align: left;
   }
-  /* line 585, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 587, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .card {
     display: block;
-    padding: 25px 32px;
+    padding: 30px 32px;
   }
-  /* line 590, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 592, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .card p {
     margin-bottom: 20px;
   }
-  /* line 594, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  /* line 596, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
   .card-btn {
     padding: 10px;
+  }
+  /* line 600, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  a {
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 992px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  /* line 607, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  .hero-text {
+    width: 970px;
+    padding-left: 30px;
+  }
+}
+
+@media (min-width: 1260px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  /* line 616, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_media-queries.scss */
+  .hero-text {
+    width: 1200px;
+    padding-left: 25px;
   }
 }
 
