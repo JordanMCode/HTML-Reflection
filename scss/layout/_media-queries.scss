@@ -60,6 +60,19 @@
         order: 3;
     }
 
+    .hero-text {
+        width: 100%;
+    }
+
+    .hero p {
+        margin: 0 0 50px 0;
+        line-height: 2.25rem;
+    }
+
+    .hero h1 {
+        margin-bottom: 20px;
+    }
+
     .cards {
         display: flex;
         justify-content: space-between;
@@ -116,7 +129,8 @@
 
     .sponsors {
         display: flex;
-        justify-items: center;
+        justify-content: center;
+        align-items: center;
         margin: 0 auto;
         padding: 50px 0;
         height: 170px;
@@ -128,19 +142,6 @@
         display: flex;
         align-content: center;
         justify-content: space-between;
-    }
-
-    .northern {
-        padding-right: 0;
-    }
-
-    .bus {
-        padding-left: 0;
-    }
-
-    .brand-logo {
-        display: flex;
-        overflow: hidden;
     }
 
 
@@ -160,8 +161,7 @@
         max-height: 55px;
     }
 
-
-    
+   
     .linked {
         margin-top: 5px;
     }
@@ -169,7 +169,7 @@
     .accred {
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 }    
 
@@ -233,6 +233,21 @@
     }
 
 
+    .hero {
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .hero-text {
+        justify-content: flex-start;
+        text-align: start;
+        margin: 0 110px;
+    }
+
+    .hero-btn {
+        margin: 0;
+    }
+
     .cards {
         width: 920px;
         max-width: 920px;
@@ -256,6 +271,14 @@
     }
 
 
+    .info-container,
+    .info-container-inner {
+        justify-content: flex-start;
+        width: 970px;
+        max-width: 970px;
+    }
+
+
     .latest-bar {
         width: 970px;
         max-width: 970px;
@@ -270,7 +293,7 @@
     .news-block-1,
     .news-block-2 {
         width: 485px;
-        height: 663px; 
+        height: 600px; 
         max-width: 485px;
     }
 
@@ -279,9 +302,31 @@
         max-width: 970px;
     }
 
+
+    .bus {
+        width: 168.75px;
+    }
+
+    .beat {
+        width: 64.63px;
+    }
+
+    .crane {
+        width: 257.61px;
+    }
+
+    .northern {
+        width: 289.02px;
+    }
+
+    .brand-logo {
+        height: 100%;
+    }
+    
     .brand-container {
         width: 970px;
         max-width: 970px;
+        height: 62.83px;
     }
     
     .accred {
@@ -295,8 +340,24 @@
         height: 110px;
     }
 
-    .accred-img-color {
-        top: 0px;
+    .micro {
+        width: 140.2px;
+        height: 85.33px;
+    }
+
+    .f-50 {
+        width: 69.2px;
+        height: 110.09px;
+    }
+
+    .qms {
+        width: 85.2px;
+        height: 99.39px;
+    }
+
+    .carbon {
+        width: 202.2px;
+        height: 80.08px;
     }
 
     .footer-container {
@@ -380,6 +441,7 @@
     .info-container {
         justify-content: start;
         width: 1200px;
+        max-width: 1200px;
         margin: 0 auto;
     }
 
@@ -425,6 +487,27 @@
     .sponsors {
         width: 1200px;
         max-width: 1200px;
+        justify-content: space-around;
+    }
+
+    .brand-container {
+        height: 70px;
+    }
+
+    .bus {
+        width: 188px;
+    }
+
+    .crane {
+        width: 287px;
+    }
+
+    .beat {
+        width: 72px;
+    }
+    
+    .northern {
+        width: 322px;
     }
 
     footer {
@@ -449,5 +532,66 @@
 
     .linked {
         margin-top: 24px;
+    }
+
+
+    .accred-imgs {
+        width: 1200px;
+        max-width: 1200px;
+    }
+
+    .micro {
+        width: 115px;
+        height: 70px;
+    }
+
+    .f-50 {
+        width: 44px;
+        height: 70px;
+    }
+
+    .qms {
+        width: 60px;
+        height: 70px;
+    }
+
+    .carbon {
+        width: 175px;
+        height: 70px;
+    }
+}
+
+
+@media (min-width:768px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+
+    .search-btn {
+        width: 64px;
+    }
+
+    .web-nav,
+    .support-nav,
+    .tele-nav,
+    .software-nav,
+    .digital-nav,
+    .cyber-nav {
+        padding: 4px 0 0 0;
+    }
+
+    .hero-text {
+        width: auto;
+        text-align: left;
+    }
+
+    .card {
+        display: block;
+        padding: 25px 32px;
+    }
+
+    .card p {
+        margin-bottom: 20px;
+    }
+
+    .card-btn {
+        padding: 10px;
     }
 }

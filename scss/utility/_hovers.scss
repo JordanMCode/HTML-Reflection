@@ -225,20 +225,20 @@
 //  Sponsor Hover States //
 // =============================================================================//
 
-.bus:hover .bus-color {
-    display: flex;
+.bus:hover {
+    background-image: url(/NmHomepage/img/bus-color.png);
 }
 
-.crane:hover .crane-color {
-    display: flex;
+.crane:hover {
+    background-image: url(/NmHomepage/img/crane-color.png);
 }
 
-.beat:hover .beat-color {
-    display: flex;
+.beat:hover {
+    background-image: url(/NmHomepage/img/beat-color.png);
 }
 
-.northern:hover .northern-color {
-    display: flex;
+.northern:hover {
+    background-image: url(/NmHomepage/img/nd-color.png);
 }
 
 
@@ -246,14 +246,14 @@
 //  Accred Hover States //
 // =============================================================================//
 
-.f-50:hover .f-50-color {
-    display: flex;
+.f-50:hover {
+    background-image: url(/NmHomepage/img/f50-color.jpeg);
 }
 
-.qms:hover .qms-color {
-    display: flex;
+.qms:hover {
+    background-image: url(/NmHomepage/img/qms-color.jpeg);
 }
 
-.carbon:hover .carbon-color {
-    display: flex;
+.carbon:hover {
+    background-image: url(/NmHomepage/img/carbon-color.jpeg);
 }
