@@ -443,6 +443,16 @@ a {
   background: #0072B1;
 }
 
+/* line 345, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+a li:hover {
+  text-decoration: underline;
+}
+
+/* line 349, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
+li a:hover {
+  text-decoration: underline;
+}
+
 /* line 3, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/components/_buttons.scss */
 .menu {
   background: #333645;

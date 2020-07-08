@@ -338,3 +338,14 @@
 .linked:hover {
     background: #0072B1;
 }
+
+
+// Hover states below serve to simulate a clickable link hover state if they included and href //
+
+a li:hover {
+    text-decoration: underline;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
