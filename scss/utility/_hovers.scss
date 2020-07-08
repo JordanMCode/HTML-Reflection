@@ -238,10 +238,26 @@
     text-decoration: underline;
 }
 
-.news-tag:hover,
-.case-tag:hover {
+.news-tag-1,
+.news-tag-2,
+.case-tag {
+    &:hover {
     text-decoration: underline;
+    }
 }
+
+.news-tag-1:hover .news-tooltip-1 {
+    display: block;
+}
+
+.news-tag-2:hover .news-tooltip-2 {
+    display: block;
+}
+
+.case-tag:hover .case-tooltip {
+    display: block;
+}
+
 
 // =============================================================================//
 //  Sponsor Hover States //

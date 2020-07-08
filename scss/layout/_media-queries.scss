@@ -445,10 +445,12 @@
         width: 1200px;
         max-width: 1200px;
         margin: 0 auto;
+        padding-left: 0;
     }
 
     .info-container-inner {
         width: 600px;
+        padding-left: 0;
     }
 
 
@@ -521,7 +523,6 @@
     .footer-container {
         display: flex;
         justify-content: center;
-        align-items: center;
         align-content: center;
         width: 1200px;
         max-width: 1200px;
@@ -530,6 +531,10 @@
 
     .footer-block {
         width: 300px;
+    }
+
+    .social-blocks {
+        height: auto;
     }
 
     .linked {

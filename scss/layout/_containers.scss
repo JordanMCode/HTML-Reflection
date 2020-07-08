@@ -114,6 +114,49 @@ h2::after {
     background: white;
 }
 
+
+.news-tooltip-1,
+.news-tooltip-2,
+.case-tooltip {
+    display: none;
+    width: 200px;
+    height: 40px;
+    color:white;
+    font-size: 12px;
+    text-transform: none;
+    background: #333645; 
+    text-align: center;
+    padding-top: 7.5px;
+    position: absolute; 
+    top: -50px;
+    left: -70px;
+}
+
+.news-tooltip-1,
+.news-tooltip-2,
+.case-tooltip {
+    &::after {
+        position: absolute;
+        top: 98.1%;
+        left: 70%;
+        margin-left: -20%;
+        content: '';
+        width: 0;
+        height: 0;
+        border-top: solid 5px #333645;
+        border-left: solid 5px transparent;
+        border-right: solid 5px transparent;
+    }
+}
+
+.case-tooltip {
+   width: 230px;
+   height: 52px;
+   padding-top: 4px;
+   top: -60px;
+   left: -55px;
+}
+
 .news-header {
     color: #333645;
     list-style: none;
@@ -168,7 +211,8 @@ h2::after {
     position: relative;
 }
 
-.news-tag,
+.news-tag-1,
+.news-tag-2,
 .case-tag {
     position: absolute;
     top: 10px;
@@ -272,24 +316,28 @@ h2::after {
     height: auto;
     width: 121.16px;
     height: 45.11px;
+    position: relative;
 }
 
 .crane {
     background-image: url("/NmHomepage/img/crane.jpeg");
     height: 45.11px;
     width: 184.95px;
+    position: relative;
 }
 
 .beat {
 background-image: url("/NmHomepage/img/beat.jpeg");
     height: 46.39px;
     width: 45.09px;
+    position: relative;
 }
 
 .northern {
 background-image: url("/NmHomepage/img/nd.jpeg");
     height: 45.09px;
     width: 207.5px;
+    position: relative;
 }
 
 .brand-container {
@@ -298,6 +346,64 @@ background-image: url("/NmHomepage/img/nd.jpeg");
     width: 750px;
     min-width: 750px;
     height: 56px;
+}
+
+.bus-tooltip,
+.crane-tooltip,
+.beat-tooltip,
+.northern-tooltip {
+    color:white;
+    font-size: 12px;
+    height:auto;
+    text-transform: none;
+    background: #333645; 
+    text-align: center;
+    padding-top: 7.5px;
+    position: absolute; 
+    z-index: 2;
+    padding: 10px 15px;
+}
+
+.bus-tooltip {
+    width: 240px;
+    top: -210px;
+    left: -20px;
+}
+
+.crane-tooltip {
+    width: 250px;
+    top: -270px;
+    left: 0;
+}
+
+.beat-tooltip {
+    width: 200px;  
+    top: -210px;
+    left: -70px;
+}
+
+.northern-tooltip {
+    width: 300px;
+    top: -240px;
+    left: 25px;
+}
+
+.bus-tooltip,
+.crane-tooltip,
+.beat-tooltip,
+.northern-tooltip {
+    &::after {
+        position: absolute;
+        top: 98.1%;
+        left: 52%;
+        margin-left: -20%;
+        content: '';
+        width: 0;
+        height: 0;
+        border-top: solid 45px #333645;
+        border-left: solid 45px transparent;
+        border-right: solid 45px transparent;
+    }
 }
 
 .accred {
