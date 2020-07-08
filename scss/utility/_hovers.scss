@@ -3,7 +3,6 @@
     cursor: pointer;
 }
 
-
 // =============================================================================//
 // Header Button Hover states //
 // =============================================================================//
@@ -258,6 +257,17 @@
     display: block;
 }
 
+.news-btn:hover {
+    background: #2a6ec6;
+    border-color: #2665b5;
+}
+
+.case-btn:hover {
+    background: #7e57a0;
+    border-color: #735093;
+}
+
+
 
 // =============================================================================//
 //  Sponsor Hover States //
@@ -309,4 +319,22 @@
 
 .carbon:hover {
     background-image: url(/NmHomepage/img/carbon-color.jpeg);
+}
+
+
+// =============================================================================//
+//  Footer Hover States //
+// =============================================================================//
+
+
+.facebook:hover {
+    background: #4267B2; 
+}
+
+.twitter:hover {
+    background: #1DA1F2;
+}
+
+.linked:hover {
+    background: #0072B1;
 }

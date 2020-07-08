@@ -54,6 +54,7 @@
    font-size: 1.063rem;
 }
 
+
 .culture-btn {
     background: white;
     border: 1px solid white;
@@ -84,6 +85,10 @@
     font-weight: 400;
 }
 
+.case-btn {
+    background: $purple;
+    border-color: $purple;
+}
 
 .app-btn {
     background: $grey-blue;
