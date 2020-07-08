@@ -300,6 +300,15 @@
     }
 
 
+    .news-img {
+        transition: transform .15s ease-in-out;
+    }
+    
+    .news-img:hover {
+        transform: scale(1.1);
+    }
+
+
     .bus {
         width: 168.75px;
     }
