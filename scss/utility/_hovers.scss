@@ -267,16 +267,31 @@
     background-image: url(/NmHomepage/img/bus-color.png);
 }
 
+.bus:hover .bus-tooltip {
+    display: block;
+}
+
 .crane:hover {
     background-image: url(/NmHomepage/img/crane-color.png);
 }
+.crane:hover .crane-tooltip {
+    display: block;
+}
+
 
 .beat:hover {
     background-image: url(/NmHomepage/img/beat-color.png);
 }
+.beat:hover .beat-tooltip {
+    display: block;
+}
+
 
 .northern:hover {
     background-image: url(/NmHomepage/img/nd-color.png);
+}
+.northern:hover .northern-tooltip {
+    display: block;
 }
 
 

@@ -352,9 +352,10 @@ background-image: url("/NmHomepage/img/nd.jpeg");
 .crane-tooltip,
 .beat-tooltip,
 .northern-tooltip {
+    display: none;
     color:white;
-    font-size: 12px;
     height:auto;
+    font-size: 13px;
     text-transform: none;
     background: #333645; 
     text-align: center;
@@ -366,26 +367,26 @@ background-image: url("/NmHomepage/img/nd.jpeg");
 
 .bus-tooltip {
     width: 240px;
-    top: -210px;
-    left: -20px;
+    top: -216px;
+    left: -30px;
 }
 
 .crane-tooltip {
     width: 250px;
-    top: -270px;
-    left: 0;
+    top: -305px;
+    left: -50px;
 }
 
 .beat-tooltip {
     width: 200px;  
-    top: -210px;
-    left: -70px;
+    top: -217px;
+    left: -85px;
 }
 
 .northern-tooltip {
     width: 300px;
-    top: -240px;
-    left: 25px;
+    top: -246px;
+    left: -60px;
 }
 
 .bus-tooltip,
@@ -404,6 +405,22 @@ background-image: url("/NmHomepage/img/nd.jpeg");
         border-left: solid 45px transparent;
         border-right: solid 45px transparent;
     }
+}
+
+.bus-tooltip h2::after {
+    background-color: white;
+}
+
+.crane-tooltip h2::after {
+    background-color: white;
+}
+
+.beat-tooltip h2::after {
+    background-color: white;
+}
+
+.northern-tooltip h2::after {
+    background-color: white;
 }
 
 .accred {
