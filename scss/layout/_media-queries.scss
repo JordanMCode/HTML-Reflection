@@ -3,7 +3,6 @@
 @media screen and (min-width:768px) {
 
     .header-container {
-        justify-content: center;
         align-items: center;
         flex-wrap: nowrap;
         margin: 0;
@@ -599,6 +598,15 @@
         width: 175px;
         height: 70px;
     }
+}
+
+@media (max-width:768px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+
+    .card p {
+        width: calc(50% - 2px);
+        margin-left: 25%;
+    }
+
 }
 
 
