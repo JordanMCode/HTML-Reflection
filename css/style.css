@@ -410,7 +410,7 @@ a {
 
 /* line 322, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .bus:hover {
-  background-image: url(/NmHomepage/img/bus-color.png);
+  background-image: url(/img/bus-color.png);
 }
 
 /* line 326, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
@@ -420,7 +420,7 @@ a {
 
 /* line 330, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .crane:hover {
-  background-image: url(/NmHomepage/img/crane-color.png);
+  background-image: url(/img/crane-color.png);
 }
 
 /* line 333, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
@@ -430,7 +430,7 @@ a {
 
 /* line 338, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .beat:hover {
-  background-image: url(/NmHomepage/img/beat-color.png);
+  background-image: url(/img/beat-color.png);
 }
 
 /* line 341, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
@@ -440,7 +440,7 @@ a {
 
 /* line 346, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .northern:hover {
-  background-image: url(/NmHomepage/img/nd-color.png);
+  background-image: url(/img/nd-color.png);
 }
 
 /* line 349, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
@@ -450,17 +450,17 @@ a {
 
 /* line 358, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .f-50:hover {
-  background-image: url(/NmHomepage/img/f50-color.jpeg);
+  background-image: url(/img/f50-color.jpeg);
 }
 
 /* line 362, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .qms:hover {
-  background-image: url(/NmHomepage/img/qms-color.jpeg);
+  background-image: url(/img/qms-color.jpeg);
 }
 
 /* line 366, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
 .carbon:hover {
-  background-image: url(/NmHomepage/img/carbon-color.jpeg);
+  background-image: url(/img/carbon-color.jpeg);
 }
 
 /* line 376, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/utility/_hovers.scss */
@@ -732,7 +732,7 @@ li a:hover {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: linear-gradient(to right, black, transparent), url("/NmHomepage/img/web-design.jpg");
+  background: linear-gradient(to right, black, transparent), url("/img/web-design.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1068,7 +1068,7 @@ h2::after {
 
 /* line 314, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
 .bus {
-  background-image: url("/NmHomepage/img/bus.jpeg");
+  background-image: url("/img/bus.jpeg");
   height: auto;
   width: 121.16px;
   height: 45.11px;
@@ -1077,7 +1077,7 @@ h2::after {
 
 /* line 322, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
 .crane {
-  background-image: url("/NmHomepage/img/crane.jpeg");
+  background-image: url("/img/crane.jpeg");
   height: 45.11px;
   width: 184.95px;
   position: relative;
@@ -1085,7 +1085,7 @@ h2::after {
 
 /* line 329, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
 .beat {
-  background-image: url("/NmHomepage/img/beat.jpeg");
+  background-image: url("/img/beat.jpeg");
   height: 46.39px;
   width: 45.09px;
   position: relative;
@@ -1093,7 +1093,7 @@ h2::after {
 
 /* line 336, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
 .northern {
-  background-image: url("/NmHomepage/img/nd.jpeg");
+  background-image: url("/img/nd.jpeg");
   height: 45.09px;
   width: 207.5px;
   position: relative;
@@ -1217,35 +1217,35 @@ h2::after {
 
 /* line 449, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
 .google {
-  background-image: url(/NmHomepage/img/google-partner.png);
+  background-image: url(/img/google-partner.png);
   width: 220px;
   height: 82px;
 }
 
 /* line 455, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
 .micro {
-  background-image: url(/NmHomepage/img/Micro.jpeg);
+  background-image: url(/img/Micro.jpeg);
   width: 127.56px;
   height: 53.3px;
 }
 
 /* line 461, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
 .f-50 {
-  background-image: url(/NmHomepage/img/f50.jpeg);
+  background-image: url(/img/f50.jpeg);
   width: 73.5px;
   height: 52.38px;
 }
 
 /* line 467, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
 .qms {
-  background-image: url(/NmHomepage/img/qms.jpeg);
+  background-image: url(/img/qms.jpeg);
   width: 85.69px;
   height: 53.3px;
 }
 
 /* line 473, C:/Users/Jordan/Desktop/ReflectionV3/NmHomepage/scss/layout/_containers.scss */
 .carbon {
-  background-image: url(/NmHomepage/img/carbon.jpeg);
+  background-image: url(/img/carbon.jpeg);
   width: 173.25px;
   height: 53.3px;
 }
