@@ -253,6 +253,11 @@ h2::after {
     box-shadow: 0 3px 35px rgba(0,0,0, .1);
 }
 
+.news-title a,
+.case-title a {
+    color: inherit;
+}
+
 .news-text p {
     line-height: 1.375rem;
 }
