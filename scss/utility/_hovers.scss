@@ -29,6 +29,16 @@
     border-color: #191a22;
 }
 
+.web-nav,
+.support-nav,
+.tele-nav,
+.software-nav,
+.digital-nav,
+.cyber-nav {
+    &:hover {
+        text-decoration: none;
+    }
+}
 
 // =============================================================================//
 // Card Hover states //

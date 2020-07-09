@@ -1,4 +1,23 @@
+@media screen and (max-width:475px) {
 
+    .header-logo {
+        margin-right: 15px;
+    }
+
+    .phone {
+        padding-right: 0;
+    }
+
+}
+
+
+@media screen and (max-width:767px) {
+
+    .news-block-2,
+    .news-block-3 {
+        margin-top: 30px; 
+    }
+}
 
 @media screen and (min-width:768px) {
 
@@ -272,6 +291,14 @@
         justify-content: flex-start;
         width: 970px;
         max-width: 970px;
+        background: none;
+    }
+
+    .info-container-background {
+        background-image: url(/NmHomepage/img/netmatters-logo-background.png);
+        background-position: 100%;
+        background-repeat: no-repeat;
+        background-size: auto 100%;
     }
 
 
@@ -602,9 +629,8 @@
 
 @media (max-width:768px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
 
-    .card p {
-        width: calc(50% - 2px);
-        margin-left: 25%;
+.ie-fix {
+    width: 100%;
     }
 
 }
@@ -631,16 +657,21 @@
     }
 
     .card {
-        display: block;
+        display: flex;
         padding: 30px 32px;
+        height: auto;
+    }
+
+    .it-card {
+       padding: 40px 32px;
+    }
+
+    .ie-fix {
+    width: 100%;
     }
 
     .card p {
         margin-bottom: 20px;
-    }
-
-    .card-btn {
-        padding: 10px;
     }
 
     a {
