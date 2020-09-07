@@ -1,28 +1,68 @@
-
-
-.hero {
+.carousel {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: linear-gradient(to right, black, transparent),
-    url("/img/web-design.jpg");
+    background: linear-gradient(to right, black, transparent), url("../img/web-design.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 681px;
     color: white;
-    padding-bottom: 50px;
 }
 
-.hero-text {
-    width: 100%;
+.slide {
+    height: 100%;
+    width: 100vw;
 }
 
-.hero p {
+.carousel-text {
+    width: 450px;
+    justify-content: flex-start;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+}
+
+.carousel-text p {
     font-size: 1.25rem;
     margin: 0 15% 35px 15%;
+}
+
+.carousel-img-1,
+.carousel-img-2,
+.carousel-img-3,
+.carousel-img-4,
+.carousel-img-5,
+.carousel-img-6 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+}
+
+.carousel-img-1 {
+    background: linear-gradient(to right, black, transparent), url("../img/web-design.jpg");
+}
+.carousel-img-2 {
+    background: linear-gradient(to right, black, transparent), url("../img/it.jpg");
+}
+.carousel-img-3 {
+    background: linear-gradient(to right, black, transparent), url("../img/phone.jpg");
+}
+.carousel-img-4 {
+    background: linear-gradient(to right, black, transparent), url("../img/screen.jpg");
+}
+.carousel-img-5 {
+    background: linear-gradient(to right, black, transparent), url("../img/chart.jpg");
+}
+.carousel-img-6 {
+    background: linear-gradient(to right, black, transparent), url("../img/cyber.jpg");
 }
 
 .card-container {
@@ -48,13 +88,12 @@
     width: 100%;
     border: 1px solid #ccc;
     border-radius: 3px;
-    box-shadow: 0 3px 35px rgba(0,0,0, .1);
+    box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
     text-align: center;
     margin-top: 30px;
     padding: 30px;
     color: #333645;
 }
-
 
 .card h2 {
     font-size: 1.125rem;
@@ -63,7 +102,7 @@
 }
 
 .card p {
-    font-size: .8125rem;
+    font-size: 0.8125rem;
     line-height: 1.375rem;
     margin-top: 0;
 }
@@ -81,7 +120,6 @@ h2::after {
     width: 100%;
     background: #333645;
 }
-
 
 .info-container {
     display: flex;
@@ -119,20 +157,19 @@ h2::after {
     background: white;
 }
 
-
 .news-tooltip-1,
 .news-tooltip-2,
 .case-tooltip {
     display: none;
     width: 200px;
     height: 40px;
-    color:white;
+    color: white;
     font-size: 12px;
     text-transform: none;
-    background: #333645; 
+    background: #333645;
     text-align: center;
     padding-top: 7.5px;
-    position: absolute; 
+    position: absolute;
     top: -50px;
     left: -70px;
 }
@@ -145,7 +182,7 @@ h2::after {
         top: 98.1%;
         left: 70%;
         margin-left: -20%;
-        content: '';
+        content: "";
         width: 0;
         height: 0;
         border-top: solid 5px #333645;
@@ -155,11 +192,11 @@ h2::after {
 }
 
 .case-tooltip {
-   width: 230px;
-   height: 52px;
-   padding-top: 4px;
-   top: -60px;
-   left: -55px;
+    width: 230px;
+    height: 52px;
+    padding-top: 4px;
+    top: -60px;
+    left: -55px;
 }
 
 .news-header {
@@ -173,13 +210,11 @@ h2::after {
     border-bottom: solid 5px #333645;
 }
 
-
 .news-section {
     padding: 50px 15px 50px;
     width: 100%;
-    background-image: linear-gradient(to bottom, rgba(230,230,230,.4), rgba(230,230,230,0));
+    background-image: linear-gradient(to bottom, rgba(230, 230, 230, 0.4), rgba(230, 230, 230, 0));
 }
-
 
 .news-block-1,
 .news-block-2,
@@ -211,7 +246,7 @@ h2::after {
     position: absolute;
     top: 10px;
     right: 0;
-    font-size: .75rem;
+    font-size: 0.75rem;
     width: 55px;
     height: 23px;
     padding: 0 10px;
@@ -248,9 +283,9 @@ h2::after {
 .news-text {
     border: 1px solid #ccc;
     padding: 20px 30px;
-    font-size: .8125rem;
+    font-size: 0.8125rem;
     line-height: 1.375rem;
-    box-shadow: 0 3px 35px rgba(0,0,0, .1);
+    box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
 }
 
 .news-title a,
@@ -264,7 +299,7 @@ h2::after {
 
 .news-text-content {
     margin-bottom: 25px;
-    margin-top: 30px;;
+    margin-top: 30px;
 }
 
 .user {
@@ -285,7 +320,7 @@ h2::after {
 
 .user img {
     max-width: 47px;
-    max-height: 47px; 
+    max-height: 47px;
 }
 
 .user-text {
@@ -302,8 +337,6 @@ h2::after {
     display: none;
 }
 
-
-
 .brand-logo {
     display: block;
     background-size: contain;
@@ -312,7 +345,7 @@ h2::after {
 }
 
 .bus {
-    background-image: url("/img/bus.jpeg");
+    background-image: url("../img/bus.jpeg");
     height: auto;
     width: 121.16px;
     height: 45.11px;
@@ -320,21 +353,21 @@ h2::after {
 }
 
 .crane {
-    background-image: url("/img/crane.jpeg");
+    background-image: url("../img/crane.jpeg");
     height: 45.11px;
     width: 184.95px;
     position: relative;
 }
 
 .beat {
-background-image: url("/img/beat.jpeg");
+    background-image: url("../img/beat.jpeg");
     height: 46.39px;
     width: 45.09px;
     position: relative;
 }
 
 .northern {
-background-image: url("/img/nd.jpeg");
+    background-image: url("../img/nd.jpeg");
     height: 45.09px;
     width: 207.5px;
     position: relative;
@@ -353,14 +386,14 @@ background-image: url("/img/nd.jpeg");
 .beat-tooltip,
 .northern-tooltip {
     display: none;
-    color:white;
-    height:auto;
+    color: white;
+    height: auto;
     font-size: 13px;
     text-transform: none;
-    background: #333645; 
+    background: #333645;
     text-align: center;
     padding-top: 7.5px;
-    position: absolute; 
+    position: absolute;
     z-index: 2;
     padding: 10px 15px;
 }
@@ -378,7 +411,7 @@ background-image: url("/img/nd.jpeg");
 }
 
 .beat-tooltip {
-    width: 200px;  
+    width: 200px;
     top: -217px;
     left: -85px;
 }
@@ -398,7 +431,7 @@ background-image: url("/img/nd.jpeg");
         top: 98.1%;
         left: 52%;
         margin-left: -20%;
-        content: '';
+        content: "";
         width: 0;
         height: 0;
         border-top: solid 45px #333645;
@@ -438,7 +471,6 @@ background-image: url("/img/nd.jpeg");
     margin: 0 auto;
 }
 
-
 .accred-img {
     background-size: contain;
     background-position: center;
@@ -447,31 +479,31 @@ background-image: url("/img/nd.jpeg");
 }
 
 .google {
-    background-image: url(/img/google-partner.png);
+    background-image: url(../img/google-partner.png);
     width: 220px;
     height: 82px;
 }
 
 .micro {
-    background-image: url(/img/Micro.jpeg);
+    background-image: url(../img/Micro.jpeg);
     width: 127.56px;
     height: 53.3px;
 }
 
 .f-50 {
-    background-image: url(/img/f50.jpeg);
+    background-image: url(../img/f50.jpeg);
     width: 73.5px;
     height: 52.38px;
 }
 
 .qms {
-    background-image: url(/img/qms.jpeg);
+    background-image: url(../img/qms.jpeg);
     width: 85.69px;
     height: 53.3px;
 }
 
 .carbon {
-    background-image: url(/img/carbon.jpeg);
+    background-image: url(../img/carbon.jpeg);
     width: 173.25px;
     height: 53.3px;
 }

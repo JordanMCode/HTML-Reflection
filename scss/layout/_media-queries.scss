@@ -1,5 +1,4 @@
-@media screen and (max-width:475px) {
-
+@media screen and (max-width: 475px) {
     .header-logo {
         margin-right: 15px;
     }
@@ -7,20 +6,16 @@
     .phone {
         padding-right: 0;
     }
-
 }
 
-
-@media screen and (max-width:767px) {
-
+@media screen and (max-width: 767px) {
     .news-block-2,
     .news-block-3 {
-        margin-top: 30px; 
+        margin-top: 30px;
     }
 }
 
-@media screen and (min-width:768px) {
-
+@media screen and (min-width: 768px) {
     .header-container {
         align-items: center;
         flex-wrap: nowrap;
@@ -72,22 +67,27 @@
 
     .search-btn {
         display: block;
+        width: 63px;
     }
 
     .actions {
         order: 3;
     }
 
-    .hero-text {
-        width: 100%;
+    .carousel-text {
+        width: 720px;
+        justify-content: flex-start;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0 15px;
     }
 
-    .hero p {
+    .carousel p {
         margin: 0 0 50px 0;
         line-height: 2.25rem;
     }
 
-    .hero h1 {
+    .carousel h1 {
         margin-bottom: 20px;
     }
 
@@ -111,7 +111,6 @@
         height: 345px;
         margin: 30px auto 0 auto;
     }
-
 
     .latest-bar {
         width: 750px;
@@ -156,12 +155,11 @@
         max-width: 750px;
     }
 
-        .brand-container {
+    .brand-container {
         display: flex;
         align-content: center;
         justify-content: space-between;
     }
-
 
     .footer-container {
         flex-direction: row;
@@ -170,16 +168,14 @@
         width: 750px;
     }
 
-
     .footer-block {
         width: 50%;
     }
-    
+
     .social-block {
         max-height: 55px;
     }
 
-   
     .linked {
         margin-top: 5px;
     }
@@ -189,11 +185,9 @@
         align-items: center;
         justify-content: space-around;
     }
-}    
+}
 
-
-@media screen and (min-width:992px) {
-
+@media screen and (min-width: 992px) {
     .header-container {
         max-width: 970px;
         margin: 0 auto;
@@ -216,9 +210,9 @@
         position: absolute;
         top: 15px;
         right: 17px;
-        color: white;    
+        color: white;
     }
-    
+
     .search-icon-md {
         top: 1px;
         right: 0;
@@ -246,20 +240,21 @@
         flex-wrap: wrap;
     }
 
-    .hero {
+    .carousel {
         flex-direction: row;
         justify-content: flex-start;
         height: 80vh;
     }
 
-    .hero-text {
+    .carousel-text {
         justify-content: flex-start;
         text-align: start;
         margin: 0 auto;
         width: 970px;
+        padding: 0 15px;
     }
 
-    .hero-btn {
+    .carousel-btn {
         margin: 0;
     }
 
@@ -285,7 +280,6 @@
         margin: 30px 0 0 0;
     }
 
-
     .info-container,
     .info-container-inner {
         justify-content: flex-start;
@@ -301,7 +295,6 @@
         background-size: auto 100%;
     }
 
-
     .latest-bar {
         width: 970px;
         max-width: 970px;
@@ -316,7 +309,7 @@
     .news-block-1,
     .news-block-2 {
         width: 485px;
-        height: 600px; 
+        height: 600px;
         max-width: 485px;
     }
 
@@ -325,15 +318,13 @@
         max-width: 970px;
     }
 
-
     .news-img {
-        transition: transform .15s ease-in-out;
+        transition: transform 0.15s ease-in-out;
     }
-    
+
     .news-img:hover {
         transform: scale(1.1);
     }
-
 
     .bus {
         width: 168.75px;
@@ -354,7 +345,7 @@
     .brand-logo {
         height: 100%;
     }
-    
+
     .brand-container {
         width: 970px;
         max-width: 970px;
@@ -374,7 +365,7 @@
     }
 
     .beat-tooltip {
-        width: 200px;  
+        width: 200px;
         top: -217px;
         left: -70px;
     }
@@ -423,12 +414,11 @@
 }
 
 @media screen and (min-width: 1260px) {
-
     .header-container {
         width: 1200px;
         max-width: 1200px;
     }
-    
+
     .actions {
         width: 800px;
         height: 70px;
@@ -458,7 +448,7 @@
         max-width: 1230px;
     }
 
-        .web-nav,
+    .web-nav,
     .support-nav,
     .tele-nav,
     .software-nav,
@@ -479,10 +469,10 @@
         margin-left: 100px;
     }
 
-    .hero-text {
+    .carousel-text {
         width: 1200px;
+        padding: 0 15px;
     }
-
 
     .cards {
         width: 1200px;
@@ -511,7 +501,6 @@
         width: 600px;
         padding-left: 0;
     }
-
 
     .latest-bar {
         width: 1200px;
@@ -568,7 +557,7 @@
     .beat {
         width: 72px;
     }
-    
+
     .northern {
         width: 322px;
     }
@@ -600,7 +589,6 @@
         margin-top: 24px;
     }
 
-
     .accred-imgs {
         width: 1200px;
         max-width: 1200px;
@@ -627,17 +615,13 @@
     }
 }
 
-@media (max-width:768px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-
-.ie-fix {
-    width: 100%;
+@media (max-width: 768px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .ie-fix {
+        width: 100%;
     }
-
 }
 
-
-@media (min-width:768px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-
+@media (min-width: 768px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
     .search-btn {
         width: 64px;
     }
@@ -651,7 +635,7 @@
         padding: 4px 0 0 0;
     }
 
-    .hero-text {
+    .carousel-text {
         width: auto;
         text-align: left;
     }
@@ -663,11 +647,11 @@
     }
 
     .it-card {
-       padding: 40px 32px;
+        padding: 40px 32px;
     }
 
     .ie-fix {
-    width: 100%;
+        width: 100%;
     }
 
     .card p {
@@ -679,20 +663,16 @@
     }
 }
 
-@media (min-width:992px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-
-    .hero-text {
+@media (min-width: 992px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .carousel-text {
         width: 970px;
         padding-left: 30px;
     }
-
 }
 
-@media (min-width:1260px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-
-    .hero-text {
+@media (min-width: 1260px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .carousel-text {
         width: 1200px;
         padding-left: 25px;
     }
-
 }

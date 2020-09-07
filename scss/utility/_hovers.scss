@@ -1,4 +1,3 @@
-
 :any-link {
     cursor: pointer;
 }
@@ -41,18 +40,40 @@
 }
 
 // =============================================================================//
-// Card Hover states //
+// Carousel button Hover states //
 // =============================================================================//
 
-.hero-btn:hover {
-    background: #7e57a0;
-    border-color: #735093;
+#carousel-btn-1:hover {
+    background: $nm-purple-dark;
+    border-color: $nm-purple-dark;
 }
 
+#carousel-btn-2:hover {
+    background: $slate-blue;
+    border-color: $slate-blue;
+}
+
+#carousel-btn-3:hover {
+    background: $dark-green;
+    border-color: $dark-green;
+}
+
+#carousel-btn-4:hover {
+    background: $dark-red;
+    border-color: $dark-red;
+}
+
+#carousel-btn-5:hover {
+    background: $nm-purple-dark;
+    border-color: $nm-purple-dark;
+}
+#carousel-btn-6:hover {
+    background: $dark-pink;
+    border-color: $dark-pink;
+}
 // =============================================================================//
 // Card Hover states //
 // =============================================================================//
-
 
 .software-card {
     &:hover {
@@ -257,19 +278,14 @@
     background: $purple;
 }
 
-
-
 // =============================================================================//
 //  Info Section Hover States //
 // =============================================================================//
 
-
-
 .culture-btn:hover {
     background: #ebebeb;
-    border-color: #e0e0e0
+    border-color: #e0e0e0;
 }
-
 
 // =============================================================================//
 //  News Hover States //
@@ -287,7 +303,7 @@
 .news-tag-2,
 .case-tag {
     &:hover {
-    text-decoration: underline;
+        text-decoration: underline;
     }
 }
 
@@ -313,14 +329,12 @@
     border-color: #735093;
 }
 
-
-
 // =============================================================================//
 //  Sponsor Hover States //
 // =============================================================================//
 
 .bus:hover {
-    background-image: url(/img/bus-color.png);
+    background-image: url(../img/bus-color.png);
 }
 
 .bus:hover .bus-tooltip {
@@ -328,63 +342,57 @@
 }
 
 .crane:hover {
-    background-image: url(/img/crane-color.png);
+    background-image: url(../img/crane-color.png);
 }
 .crane:hover .crane-tooltip {
     display: block;
 }
 
-
 .beat:hover {
-    background-image: url(/img/beat-color.png);
+    background-image: url(../img/beat-color.png);
 }
 .beat:hover .beat-tooltip {
     display: block;
 }
 
-
 .northern:hover {
-    background-image: url(/img/nd-color.png);
+    background-image: url(../img/nd-color.png);
 }
 .northern:hover .northern-tooltip {
     display: block;
 }
-
 
 // =============================================================================//
 //  Accred Hover States //
 // =============================================================================//
 
 .f-50:hover {
-    background-image: url(/img/f50-color.jpeg);
+    background-image: url(../img/f50-color.jpeg);
 }
 
 .qms:hover {
-    background-image: url(/img/qms-color.jpeg);
+    background-image: url(../img/qms-color.jpeg);
 }
 
 .carbon:hover {
-    background-image: url(/img/carbon-color.jpeg);
+    background-image: url(../img/carbon-color.jpeg);
 }
-
 
 // =============================================================================//
 //  Footer Hover States //
 // =============================================================================//
 
-
 .facebook:hover {
-    background: #4267B2; 
+    background: #4267b2;
 }
 
 .twitter:hover {
-    background: #1DA1F2;
+    background: #1da1f2;
 }
 
 .linked:hover {
-    background: #0072B1;
+    background: #0072b1;
 }
-
 
 // Hover states below serve to simulate a clickable link hover state if they included and href //
 
