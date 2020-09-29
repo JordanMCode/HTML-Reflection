@@ -4,6 +4,8 @@
 @import "components/buttons";
 @import "components/icons";
 @import "layout/articles";
+@import "components/slick";
+@import "components/slick-theme";
 @import "components/pushy";
 @import "layout/containers";
 @import "layout/nav";
@@ -12,5 +14,3 @@
 @import "layout/media-queries";
 @import "utility/mixins";
 @import "components/cookie";
-
-// @import "base/base", "components/buttons", "components/icons", "layout/articles", "layout/containers", "layout/footer", "layout/header", "layout/media-queries", "utility/mixins", "utility/variables";

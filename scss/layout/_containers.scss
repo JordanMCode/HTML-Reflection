@@ -31,21 +31,6 @@
     margin: 0 15% 35px 15%;
 }
 
-.carousel-img-1,
-.carousel-img-2,
-.carousel-img-3,
-.carousel-img-4,
-.carousel-img-5,
-.carousel-img-6 {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 1000px;
-    width: 100vw;
-    position: absolute;
-    top: 0;
-}
-
 .carousel-img-1 {
     background: linear-gradient(to right, black, transparent), url("../img/web-design.jpg");
 }
@@ -63,6 +48,21 @@
 }
 .carousel-img-6 {
     background: linear-gradient(to right, black, transparent), url("../img/cyber.jpg");
+}
+
+.carousel-img-1,
+.carousel-img-2,
+.carousel-img-3,
+.carousel-img-4,
+.carousel-img-5,
+.carousel-img-6 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
 }
 
 .card-container {
